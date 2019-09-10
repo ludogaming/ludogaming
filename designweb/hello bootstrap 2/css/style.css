@@ -1,0 +1,22 @@
+.bg{
+    background: url("../img/36357187-mario-wallpaper.jpg" );
+    height: 800px;
+    background-size: cover;
+}
+h1{
+    color:yellow;
+text-align: center;
+  font-size: 100px;
+}
+hr{
+    padding-bottom:30px;
+    padding-top:30px;
+    max-width: 250px;
+    border-width: 3px;
+    border-color: #f05f40;
+}
+.lol{
+    color: blue;
+    text-align: center;
+    font-size: 30px;
+}
