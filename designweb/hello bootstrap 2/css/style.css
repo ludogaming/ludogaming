@@ -20,3 +20,26 @@ hr{
     text-align: center;
     font-size: 30px;
 }
+.rest{
+    background-color: orangered ;
+    background-size: auto;
+    height: auto;
+
+}
+.qwerty{
+    color: black;
+    text-align: center;
+    font-size:30px ;
+}
+h2{
+    color: blue;
+    text-align: center;
+    font-size: 40px;
+}
+.line{
+    padding-bottom:30px;
+    padding-top:30px;
+    max-width: 250px;
+    border-width: 3px;
+    border-color: lawngreen;
+}
