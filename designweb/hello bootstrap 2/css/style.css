@@ -34,7 +34,8 @@ hr{
 h2{
     color: blue;
     text-align: center;
-    font-size: 40px;
+    font-size: 35px;
+    width: auto;
 }
 .line{
     padding-bottom:30px;
@@ -42,4 +43,8 @@ h2{
     max-width: 250px;
     border-width: 3px;
     border-color: lawngreen;
+}
+.advertisement{
+    color: yellow;
+    font-size: 40px;
 }
