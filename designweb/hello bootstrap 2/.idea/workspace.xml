@@ -55,13 +55,13 @@
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\ludov\PhpstormProjects\hello bootstrap 2\js" />
-      <recent name="C:\Users\ludov\PhpstormProjects\hello bootstrap 2" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\ludov\Documents\Github\ludogaming\designweb\hello bootstrap 2\img" />
       <recent name="C:\Users\ludov\PhpstormProjects\hello bootstrap 2\img" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ludov\PhpstormProjects\hello bootstrap 2\js" />
+      <recent name="C:\Users\ludov\PhpstormProjects\hello bootstrap 2" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -91,7 +91,8 @@
       <workItem from="1568117303108" duration="2663000" />
       <workItem from="1568660883152" duration="5175000" />
       <workItem from="1568666162334" duration="1472000" />
-      <workItem from="1568721625576" duration="5138000" />
+      <workItem from="1568721625576" duration="5695000" />
+      <workItem from="1568755381842" duration="1671000" />
     </task>
     <servers />
   </component>
