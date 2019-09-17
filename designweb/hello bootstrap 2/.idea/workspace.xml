@@ -44,7 +44,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/img" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -55,12 +55,13 @@
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\ludov\PhpstormProjects\hello bootstrap 2\img" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\ludov\PhpstormProjects\hello bootstrap 2\js" />
       <recent name="C:\Users\ludov\PhpstormProjects\hello bootstrap 2" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ludov\Documents\Github\ludogaming\designweb\hello bootstrap 2\img" />
+      <recent name="C:\Users\ludov\PhpstormProjects\hello bootstrap 2\img" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -90,7 +91,7 @@
       <workItem from="1568117303108" duration="2663000" />
       <workItem from="1568660883152" duration="5175000" />
       <workItem from="1568666162334" duration="1472000" />
-      <workItem from="1568721625576" duration="2829000" />
+      <workItem from="1568721625576" duration="5138000" />
     </task>
     <servers />
   </component>
