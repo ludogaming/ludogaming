@@ -5,3 +5,6 @@ body,html{
 .h4 {
     text-decoration-color: -webkit-link;
 }
+.astuce{
+    font-size: 2rem;
+}
