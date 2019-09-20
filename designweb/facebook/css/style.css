@@ -11,8 +11,13 @@ p{
     color: black;
 }
 .backround{
-background: url("../img/téléchargement.jpg") ;
-    background-repeat: no-repeat;
-    height: 100%;
+background-image: url("../img/téléchargement.jpg") ;
+    background-repeat: repeat ;
     background-size: cover;
+}
+.mario{
+    color: orangered;
+}
+.horreur{
+    color: red;
 }
