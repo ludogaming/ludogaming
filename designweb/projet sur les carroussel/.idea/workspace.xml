@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3e12bed7-97de-4c98-9672-01d482a47690" name="Default Changelist" comment="" />
+    <list default="true" id="704a9965-efba-42bc-ac3e-007ef8505ce1" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,29 +24,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="ProjectId" id="1Qz3Wc614e4D9voXKHL6VrqVvTC" />
+  <component name="ProjectId" id="1RFf1DlKuxZj2vrWy029Fa2r3SG" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/img" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.path.for.package.eslint" value="project" />
-    <property name="node.js.path.for.package.tslint" value="project" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\ludov\Documents\Github\ludogaming\designweb\facebook\img" />
-      <recent name="C:\Users\ludov\Documents\Github\ludogaming\designweb\facebook" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\ludov\Documents\Github\ludogaming\designweb\facebook\img" />
+      <recent name="C:\Users\ludov\Documents\Github\ludogaming\projet sur les carroussel" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -66,19 +55,12 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="3e12bed7-97de-4c98-9672-01d482a47690" name="Default Changelist" comment="" />
-      <created>1568759629674</created>
+      <changelist id="704a9965-efba-42bc-ac3e-007ef8505ce1" name="Default Changelist" comment="" />
+      <created>1569267547567</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1568759629674</updated>
-      <workItem from="1568759630844" duration="701000" />
-      <workItem from="1568813886124" duration="518000" />
-      <workItem from="1568814657296" duration="9949000" />
-      <workItem from="1568852481432" duration="8000" />
-      <workItem from="1568905893590" duration="14056000" />
-      <workItem from="1568989369121" duration="4986000" />
-      <workItem from="1569001169569" duration="785000" />
-      <workItem from="1569265306450" duration="1700000" />
+      <updated>1569267547567</updated>
+      <workItem from="1569267548747" duration="403000" />
     </task>
     <servers />
   </component>
@@ -90,9 +72,7 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
