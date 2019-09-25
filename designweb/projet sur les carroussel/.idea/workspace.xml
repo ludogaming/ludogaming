@@ -30,7 +30,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/img" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../hello bootstrap 2" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -69,7 +69,9 @@
       <updated>1569267547567</updated>
       <workItem from="1569267548747" duration="403000" />
       <workItem from="1569268043770" duration="4489000" />
-      <workItem from="1569326011924" duration="6059000" />
+      <workItem from="1569326011924" duration="7551000" />
+      <workItem from="1569349785778" duration="78000" />
+      <workItem from="1569418479513" duration="3491000" />
     </task>
     <servers />
   </component>
