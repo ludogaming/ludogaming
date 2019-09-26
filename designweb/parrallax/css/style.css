@@ -1,0 +1,19 @@
+html,body{
+    height: 100%;
+}
+
+.bg{
+    background-image: url("../img/cropped-1920-1080-434451.jpg");
+ background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    min-height: 600px;
+
+}
+.h4{
+    color: yellow;
+}
+html,body{
+height: 100%;
+    width: 100%;
+}

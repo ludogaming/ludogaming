@@ -20,7 +20,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../projet sur les carroussel" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -53,6 +53,7 @@
       <workItem from="1569267740065" duration="92000" />
       <workItem from="1569268184728" duration="766000" />
       <workItem from="1569421245661" duration="145000" />
+      <workItem from="1569508026364" duration="212000" />
     </task>
     <servers />
   </component>

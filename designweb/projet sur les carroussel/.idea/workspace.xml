@@ -13,6 +13,20 @@
       <executable />
     </execution>
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -30,7 +44,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../hello bootstrap 2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -41,6 +55,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ludov\Documents\Github\ludogaming\designweb\projet sur les carroussel" />
       <recent name="C:\Users\ludov\Documents\Github\ludogaming\designweb\projet sur les carroussel\img" />
       <recent name="C:\Users\ludov\Documents\Github\ludogaming\projet sur les carroussel" />
     </key>
@@ -71,7 +86,13 @@
       <workItem from="1569268043770" duration="4489000" />
       <workItem from="1569326011924" duration="7551000" />
       <workItem from="1569349785778" duration="78000" />
-      <workItem from="1569418479513" duration="3491000" />
+      <workItem from="1569418479513" duration="3825000" />
+      <workItem from="1569439046650" duration="843000" />
+      <workItem from="1569457421031" duration="674000" />
+      <workItem from="1569506341816" duration="1073000" />
+      <workItem from="1569507962283" duration="51000" />
+      <workItem from="1569508239082" duration="116000" />
+      <workItem from="1569510952092" duration="224000" />
     </task>
     <servers />
   </component>
