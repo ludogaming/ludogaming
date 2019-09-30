@@ -21,11 +21,13 @@ html,body{
 .bande{
    align-items: center;
     text-align: left;
-    background-color: rgba(138, 138, 138, 0.75);
+    background-color: rgba(138, 138, 138,.75);
+    background-size: cover;
 }
 .noir{
     color: black;
 }
 h1{
     font-size: 3.5rem;
+    text-
 }
