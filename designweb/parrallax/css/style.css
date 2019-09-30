@@ -14,7 +14,7 @@ html,body{
     color: yellow;
 }
 .carré{
-    background-color: rgba(255,255,0,.75);
+    background-color: rgba(255,255,0,.75) !important;
     align-items: center;
     text-align: center;
 }
@@ -29,5 +29,10 @@ html,body{
 }
 h1{
     font-size: 3.5rem;
-    text-
+}
+.fdsa{
+    font-size: 3rem;
+}
+.image{
+    border-image-repeat: repeat;
 }
