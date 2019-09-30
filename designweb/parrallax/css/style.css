@@ -13,7 +13,19 @@ html,body{
 .h4{
     color: yellow;
 }
-html,body{
-height: 100%;
-    width: 100%;
+.carré{
+    background-color: rgba(255,255,0,.75);
+    align-items: center;
+    text-align: center;
+}
+.bande{
+   align-items: center;
+    text-align: left;
+    background-color: rgba(138, 138, 138, 0.75);
+}
+.noir{
+    color: black;
+}
+h1{
+    font-size: 3.5rem;
 }
