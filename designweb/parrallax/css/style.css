@@ -59,3 +59,14 @@ ul{
     background-position: top;
     height: 500px;
 }
+.zone3titre{
+    color: white;
+    font-size: 3.8rem;
+}
+.paragraphe{
+    color: white;
+    font-size: 1.3rem;
+}
+li{
+    color: wheat;
+}
