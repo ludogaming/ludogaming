@@ -43,7 +43,19 @@ h1{
 }
 .gras{
    font-weight: bold;
+    font-size: 2.5rem;
 }
 .couleurfont{
     background-color: salmon;
+}
+ul{
+    font-size: 1.3rem;
+}
+.bg2{
+
+    background-image: url("../img/moteur-v8-62-hellcat-dodge-challenger.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: top;
+    height: 500px;
 }
