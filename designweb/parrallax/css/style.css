@@ -31,8 +31,15 @@ h1{
     font-size: 3.5rem;
 }
 .fdsa{
-    font-size: 3rem;
+    font-size: 3.5rem;
 }
 .image{
     border-image-repeat: repeat;
+}
+.texte{
+    text-align: justify;
+    font-size: 1.5rem;
+}
+.gras{
+   font-weight: bold;
 }
