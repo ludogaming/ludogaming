@@ -70,3 +70,14 @@ ul{
 li{
     color: wheat;
 }
+.linope{
+    color: black;
+}
+.bg3{
+
+    background-image: url("../img/1969_Dodge_Charger_Daytona.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height: 600px;
+}
