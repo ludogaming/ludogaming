@@ -30,7 +30,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/img" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../projet sur les carroussel" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -70,7 +70,8 @@
       <workItem from="1569511581496" duration="2229000" />
       <workItem from="1569869904400" duration="7446000" />
       <workItem from="1569931198456" duration="7479000" />
-      <workItem from="1570027444768" duration="2743000" />
+      <workItem from="1570027444768" duration="5257000" />
+      <workItem from="1570051631939" duration="696000" />
     </task>
     <servers />
   </component>

@@ -84,3 +84,22 @@ li{
 .padding{
     padding-top: 3.5rem;
 }
+.zone5{
+    background-color: forestgreen;
+}
+.zone5_2{
+    background-color:sandybrown;
+}
+.zone5_3{
+    background-color: #007bff;
+}
+.fa-youtube{
+    font-size: 3.5rem;
+    padding-top:2rem ;
+    color: red;
+}
+.fa-twitch{
+    font-size: 3.5rem;
+    padding-top:2rem ;
+    color: darkviolet;
+}
