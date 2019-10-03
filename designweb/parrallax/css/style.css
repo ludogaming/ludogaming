@@ -113,5 +113,5 @@ li{
     color: fuchsia;
 }
 @media only screen and (max-width: 720px){
-    html,body{font-size: 5.5px}
+    html,body{font-size: 6px}
 }
