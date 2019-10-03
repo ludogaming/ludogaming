@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr-ca">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -10,9 +10,43 @@
 <body>
 
 <form>
+    <div class="container-fluid align-items-center text-center">
     <div class="form-group">
-        <label for="nompersonne">votre nom</label>
-        <input type="text" class="form-control" id="nompersonne" aria-describedby="nom" placeholder="entrez votre nom">
+        <label for="nompersonne" class="text-center">votre nom</label>
+        <input type="text" class="form-control text-center " id="nompersonne" aria-describedby="nom" placeholder="entrez votre nom">
+    </div>
+    <div class="form-group">
+        <label for="prenompersonne" class="text-center">votre prénom</label>
+        <input type="text" class="form-control text-center" id="prenompersonne" aria-describedby="prénom" placeholder="entrez votre prénom" >
+    </div>
+    <div class="form-group text-center">
+        <label for="selector">pourquoi vous avez besoin d'aide</label>
+        <select id="selector" class="form-control text-center align-items-center">
+            <option selected class="text-center">choisir svp...</option>
+            <option class="text-center">problème HTML</option>
+            <option class="text-center">problème css</option>
+            <option class="text-center">problème bootstrap</option>
+            <option class="text-center">problème avec les positionnnement des division</option>
+        </select>
+    </div>
+    <div class="form-group">
+        <label for="question">présicer votre problème</label>
+        <textarea class="form-control" id="question" rows="4"></textarea>
+    </div>
+    <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="priorité">
+        <label for="priorité">urgent</label>
+    </div>
+    <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="priorité2">
+        <label for="priorité2">important</label>
+    </div>
+    <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="priorité3">
+        <label for="priorité3">sa peu attendre</label>
+    </div>
+    <input type="reset" value="Reset" /><br>
+        <a href="../formulaire/formulaire%20envoyé.html"><button type="button" class="btn btn-primary">envoyé</button></a>
     </div>
 </form>
 <script src="https://kit.fontawesome.com/a46d75ba7a.js"></script>
