@@ -3,3 +3,12 @@ option{
     align-items: center;
     margin: auto;
 }
+h1{
+    text-align: center;
+    align-items: center;
+}
+#entreprise{
+    text-align: center;
+    align-items: center;
+    padding-top: 150px;
+}
