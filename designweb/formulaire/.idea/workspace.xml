@@ -30,7 +30,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/img" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -41,6 +41,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ludov\Documents\Github\ludogaming\designweb\formulaire\img" />
       <recent name="C:\Users\ludov\Documents\Github\ludogaming\designweb\formulaire" />
     </key>
   </component>
@@ -67,7 +68,7 @@
       <option name="presentableId" value="Default" />
       <updated>1570113565699</updated>
       <workItem from="1570113566872" duration="4922000" />
-      <workItem from="1570474903827" duration="571000" />
+      <workItem from="1570474903827" duration="1683000" />
     </task>
     <servers />
   </component>
