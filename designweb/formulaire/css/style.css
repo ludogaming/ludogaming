@@ -12,3 +12,6 @@ h1{
     align-items: center;
     padding-top: 150px;
 }
+html,body{
+    background-color: #adb5bd;
+}
