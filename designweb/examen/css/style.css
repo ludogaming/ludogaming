@@ -196,3 +196,28 @@ width: 220px;
 .bouttonline{
     font-size: 1.5rem;
 }
+.colorrowp1{
+    background-color: #34ce57;
+}
+.potate{
+    background-color: #fa0000;
+}
+table,th,tr,td{
+    border: 2px solid black;
+    align-items: center;
+    text-align: center;
+}
+table{
+    width: 100%;
+}
+td{
+    font-size: 2rem;
+    color: yellow;
+}
+th{
+    font-size: 2.7rem;
+}
+.bouttonn{
+    height: 6rem;
+    font-size: 3rem;
+}
