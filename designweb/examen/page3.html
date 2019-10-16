@@ -22,6 +22,137 @@
         </ul>
     </div>
 </nav>
+<div class="container-fluid no-gutters">
+<header>
+    <section id="haut"></section>
+    <h3 class="head">section 1: <a href="#logo" type="button" class="btn btn-warning boutton"  >logo</a></h3>
+    <h3 class="head">section 2: <a href="#arme" type="button" class="btn btn-warning boutton">arme du jeux</a></h3>
+    <h3 class="head">section 3: <a href="#mode" type="button" class="btn btn-warning boutton">mode de jeux</a> </h3>
+    <h3 class="head">section 4: <a href="#contact" type="button" class="btn btn-warning boutton">formulaire</a> </h3>
+</header>
+    <div class="row">
+    <section id="logo"><img src="img/call-of-duty-infinite-warfare-wallpaper-8.jpg" class="img-fluid"/></section>
+    </div>
+    <div class="row pt-5">
+        <section id="arme"></section>
+        <div class="col-xl-12 text-center align-items-center">
+            <p class="psdokmjemmdk">selon moi l'arme la plus puissante du jeux est le Désatomiseur. le Désatomiseur est un arme a energie qui resemble a un pistolet
+            mais il est tres puissant. lorque vous l'avez avec vous, vous tiré sur quelqun d'HUMAIN et il meurt instentanément.
+            malheureusement cette arme est tres rare, elle est pas dispo en mode zombie, durant la campagne vous devez la trouvez et
+            en multijoueur ses un atout d'armure. pour savoir tout les arme du jeux cliqué sur ce bouton.</p>
+            <a href="https://ca.ign.com/wikis/call-of-duty-infinite-warfare/Weapons" type="button" class="btn btn-success bouttonlien" target="_blank">arme</a>
+        </div>
+    </div>
+    <div class="row pt-5 backg">
+        <section id="mode"></section>
+        <div class="col-xl-12 text-center align-items-center">
+            <h3 class="cool">il existe 3 mode de jeux dans call of duty infinite warfare:</h3>
+            <button type="button" class="btn btn-primary bouttonline" data-toggle="modal" data-target="#exampleModal">
+                mode de jeux
+            </button>
+
+
+            <div class="modal fade modal-xl " tabindex="-1" role="dialog" id="exampleModal">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h3 class="modal-title">modes de jeu</h3>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+
+                            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                                <ul class="carousel-indicators">
+                                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                                </ul>
+
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img class="img-fluid" src="img/call-of-duty_-infinite-warfare-hd-wallpapers-32859-167691.jpg" alt="multijoueur">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img class="img-fluid" src="img/Call-Of-Duty-Infinite-Warfare-Wallpaper.jpg" alt="campagne">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img class="img-fluid" src="img/call-of-duty-infinite-warfare-wallpaper-5.jpg" alt="zombie">
+                                    </div>
+                                </div>
+
+                                <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
+                                    <span class="carousel-control-prev-icon"></span>
+                                </a>
+                                <a class="carousel-control-next" href="#myCarousel" data-slide="next">
+                                    <span class="carousel-control-next-icon"></span>
+                                </a>
+
+                            </div>
+                            </div> <!-- Fin du carousel -->
+                        </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row text-center align-items-center pt-5">
+                <section id="contact"></section>
+                <h3>si vous voulez que je rajoute des jeux dans ce site, juste a remplir le formulaire ci dessous</h3>
+            </div>
+                <form>
+                    <div class="form-row">
+                        <div class="col-4">
+                                <input type="text" class="form-control" placeholder="Prénom">
+                        </div>
+                        <div class="col-4">
+                            <input type="text" class="form-control " placeholder="Nom">
+                        </div>
+                        <div class="col-4">
+                            <input type="number" class="form-control" placeholder="Àge">
+                        </div>
+                    </div>
+                    <div class="form-row pt-5">
+                        <div class="col-6">
+                            <input type="text" class="form-control " placeholder="Ville" >
+                        </div>
+                        <div class="col-6">
+                            <input type="email" class="form-control" placeholder="Email">
+                        </div>
+                    </div>
+                    <div class="form-group pt-5">
+                        <label for="lejeux">disez moi le jeux que vous voulez ajouté (ps. vous pouvez n'écrire plusieurs)</label>
+                        <textarea class="form-control" id="lejeux" rows="6"></textarea>
+                    </div>
+                    <div class="form-group pt-5">
+                        <label for="desc">decrivé moi le jeu (ou les jeux) que vous avez ecrit</label>
+                        <textarea class="form-control" id="desc" rows="15"></textarea>
+                    </div>
+                    <button type="button" class="btn btn-danger boutton " data-toggle="modal" data-target="#envoye">
+                        envoyé
+                    </button>
+                </form>
+
+                    <div class="modal" tabindex="-1" role="dialog" id="envoye">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <h2>votre demande a bien été envoyé</h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    <footer class="text-center align-items-center">
+        <a href="#haut" type="button" class="btn btn-warning btn-lg btn-block bouttonn">retour en haut la page</a>
+    </footer>
+        </div>
+
 <script src="https://kit.fontawesome.com/a46d75ba7a.js"></script>
 <script src="js/jquery-3.4.1.min.js"></script>
 <script src="js/bootstrap.js"></script>
