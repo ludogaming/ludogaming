@@ -87,7 +87,7 @@
     }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 790px) {
     .navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item {
         color: #000000;
     }
@@ -308,6 +308,11 @@ label{
 .bouttononefjnsi{
 
 }
+.imagehot{
+    background-image: url("../img/213443.jpg");
+    background-size: cover;
+    height: 100%;
+}
 @media screen and (max-width: 480px){
     html,body{
         font-size: 5px;
@@ -317,7 +322,19 @@ label{
         font-size: 4rem;
         color: white;
     }
-    .rijdnsfi{
-        
+    .imagehot{
+        background-image: url("../img/677788.jpg");
+        background-position: top;
     }
+}
+
+@media screen and (min-width: 481px) and (max-width: 990px){
+    html,body{
+        height: 100%;
+        font-size: 8px;
+    }
+    .imagehot{
+        background-image: url("../img/wallpaper-mario-fond-rouge.jpeg");
+
+            }
 }
