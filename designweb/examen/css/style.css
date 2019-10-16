@@ -143,6 +143,7 @@
 html,body{
     font-size: 10px;
     background-color: #007bff;
+    height: 100%;
 }
 .sdasd{
     font-size: 3rem;
@@ -220,4 +221,61 @@ th{
 .bouttonn{
     height: 6rem;
     font-size: 3rem;
+}
+.bg{
+    background-image: url("../img/eff316895bc9368ad87cc8b612bbcc33.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: top;
+    min-height: 600px;
+
+}
+.texte{
+    background-color: rgba(200,200,0,.75);
+    align-items: center;
+    text-align: center;
+    font-size: 3rem;
+}
+.carte{
+    max-width: 200rem;
+    background-color: springgreen;
+}
+.cartetitre{
+    font-size: 2.5rem;
+}
+.carteparagraphe{
+    font-size: 1.5rem;
+}
+.jumbotron{
+    background-color: #fa0000;
+}
+.jumbobouttonsize{
+    font-size: 2rem;
+}
+.edi{
+    font-size: 6rem;
+    color: #c82333;
+}
+.bd1{
+    background-color: blue;
+}
+.bd2{
+    background-color: #34ce57;
+}
+.bd3{
+    background-color: magenta;
+}
+.bd4{
+    background-color: turquoise;
+}
+.imagezelda{
+    height: 155px;
+    width: 155px;
+}
+.paragraphe{
+    font-size: 2rem;
+}
+.imagezeldaspecial{
+    height: 155px;
+    width: 225px;
 }
