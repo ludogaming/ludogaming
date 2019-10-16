@@ -308,3 +308,9 @@ label{
 .bouttononefjnsi{
 
 }
+@media screen and (max-width: 480px){
+    html,body{
+        font-size: 5px;
+        height: 100%;
+    }
+}
