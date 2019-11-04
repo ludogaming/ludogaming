@@ -30,7 +30,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/img" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -41,8 +41,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\ludov\Documents\Github\ludogaming\designweb\examen\img" />
       <recent name="C:\Users\ludov\Documents\Github\ludogaming\designweb\examen" />
+      <recent name="C:\Users\ludov\Documents\Github\ludogaming\designweb\examen\img" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -72,7 +72,9 @@
       <workItem from="1570820645945" duration="356000" />
       <workItem from="1571094775442" duration="1823000" />
       <workItem from="1571153760014" duration="15724000" />
-      <workItem from="1571228941088" duration="31186000" />
+      <workItem from="1571228941088" duration="31187000" />
+      <workItem from="1571687283088" duration="135000" />
+      <workItem from="1571747683687" duration="373000" />
     </task>
     <servers />
   </component>
