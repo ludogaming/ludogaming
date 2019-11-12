@@ -1,14 +1,18 @@
 body,html{
-    background-color: #007bff;
+    background-image: url("../img/image-asset.jpeg");
+    background-size: cover;
+
+
 
 }
 .lol{
     padding-left: 940px;
-
+color: #007bff;
 
 }
 .lol2{
     padding-left: 850px;
+    color: #007bff;
 }
 .label{
     font-size: 60px;
@@ -18,4 +22,10 @@ body,html{
 }
 .true{
     color:lime;
+}
+.force{
+    color: red;
+}
+.grospetit{
+    font-size: 25px;
 }
