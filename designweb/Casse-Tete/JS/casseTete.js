@@ -3,6 +3,7 @@ var id1;
 var id2;
 var src1;
 var src2;
+var tableau=[false,false,false,false,false,true,false,false,false];
 function  triche(){
 $('#image1').attr("src","images/1.jpg");
 $('#image2').attr("src","images/2.jpg");
@@ -37,7 +38,18 @@ $(".img-fluid").click(function () {
 
 });
 $("#boutonRecommencer").click(function () {
-    window.location.reload(true);
+ var case23=false;
+ var i;
+for (i=0;i<=9;i+=1){
+ while (!case23){
+     var nbaleatoire=Math.floor((Math.random()*8)+1);
+     if (tableau[nbaleatoire]===false){
+         tableau[nbaleatoire]=true;
+         $('#image1').attr("src","images/"+ nbaleatoire +".jpg");
+         case23=true;
+     }
+ }
+}
 });
 $('#boutonTricher').click(function () {
 triche();

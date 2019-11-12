@@ -1,0 +1,21 @@
+body,html{
+    background-color: #007bff;
+
+}
+.lol{
+    padding-left: 940px;
+
+
+}
+.lol2{
+    padding-left: 850px;
+}
+.label{
+    font-size: 60px;
+}
+.nope{
+    color: red;
+}
+.true{
+    color:lime;
+}

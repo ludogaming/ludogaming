@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9e820a53-d5d2-40ee-9661-7103e6a87f25" name="Default" comment="" />
+    <list default="true" id="2be8fada-1504-4812-ba4e-9eb06b379582" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,12 +12,6 @@
     <execution>
       <executable />
     </execution>
-  </component>
-  <component name="CreatePatchCommitExecutor">
-    <option name="PATCH_PATH" value="" />
-  </component>
-  <component name="FavoritesManager">
-    <favorites_list name="ExamenJS" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -31,10 +25,10 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="ProjectId" id="1TALqktRyDFd7zkvSiKE7bTIXFZ" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="1TIEuc8DDqvIBprWS1cKwFwbt00" />
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
@@ -44,6 +38,16 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ludov\PhpstormProjects\Comicon 2019" />
+      <recent name="C:\Users\ludov\PhpstormProjects\Comicon 2019\Bootstrap\css" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ludov\PhpstormProjects\Comicon 2019\Bootstrap\js" />
+      <recent name="C:\Users\ludov\PhpstormProjects\Comicon 2019" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -57,66 +61,25 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration default="true" type="js.build_tools.gulp">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <gulpfile />
-      <tasks />
-      <arguments />
-      <envs />
-      <method v="2" />
-    </configuration>
-  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="9e820a53-d5d2-40ee-9661-7103e6a87f25" name="Default" comment="" />
-      <created>1491828932468</created>
+      <changelist id="2be8fada-1504-4812-ba4e-9eb06b379582" name="Default Changelist" comment="" />
+      <created>1573139435631</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1491828932468</updated>
-      <workItem from="1491828933718" duration="4455000" />
-      <workItem from="1491835968552" duration="260000" />
-      <workItem from="1491916454013" duration="3973000" />
-      <workItem from="1491924106127" duration="597000" />
-      <workItem from="1492024419726" duration="595000" />
-      <workItem from="1492085488584" duration="3347000" />
-      <workItem from="1492216634478" duration="359000" />
-      <workItem from="1492525414285" duration="648000" />
-      <workItem from="1527634121293" duration="800000" />
-      <workItem from="1572898161650" duration="6385000" />
-      <workItem from="1572908805731" duration="239000" />
-      <workItem from="1572958501335" duration="7030000" />
-      <workItem from="1572982663067" duration="36000" />
-      <workItem from="1573140346559" duration="433000" />
+      <updated>1573139435631</updated>
+      <workItem from="1573139445219" duration="6395000" />
+      <workItem from="1573169821060" duration="6000" />
+      <workItem from="1573244375401" duration="2038000" />
+      <workItem from="1573502260478" duration="6371000" />
+      <workItem from="1573563597994" duration="1657000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
-  <component name="Vcs.Log.UiProperties">
-    <option name="RECENTLY_FILTERED_USER_GROUPS">
-      <collection />
-    </option>
-    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-      <collection />
-    </option>
   </component>
 </project>
