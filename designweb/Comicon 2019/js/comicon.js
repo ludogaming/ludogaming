@@ -16,4 +16,18 @@ else {
 }
 });
 });
-$('#motdepasse')
+$('#motdepasse').keyup(function () {
+   var t =$('#motdepasse').val();
+   var longeur=t.length;
+if (longeur>=6&&longeur<=9){
+    $('#forcemotpasse').html("Moyen");
+    $('.force').css("color","yellow");
+}
+else if (longeur>9 && t.match(/[A-Z]/)&&t.match(/\d/)){
+    $('#forcemotpasse').html("Fort");
+    $('.force').css("color","green");
+}
+});
+$('#motdepasse2').keyup(function () {
+   var motpasse2=
+});
