@@ -31,7 +31,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/img" />
+    <property name="last_opened_file_path" value="$USER_HOME$/PhpstormProjects/Notes_De_Prog" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -78,7 +78,8 @@
       <workItem from="1573244375401" duration="2038000" />
       <workItem from="1573502260478" duration="6371000" />
       <workItem from="1573563597994" duration="1657000" />
-      <workItem from="1573566082298" duration="4874000" />
+      <workItem from="1573566082298" duration="5556000" />
+      <workItem from="1573649570583" duration="2446000" />
     </task>
     <servers />
   </component>
@@ -90,7 +91,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
