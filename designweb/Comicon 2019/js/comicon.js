@@ -29,5 +29,16 @@ else if (longeur>9 && t.match(/[A-Z]/)&&t.match(/\d/)){
 }
 });
 $('#motdepasse2').keyup(function () {
-   var motpasse2=
+    var motdepasse1=$('#motdepasse').val();
+   var motpasse2=$('#motdepasse2').val();
+   if (motpasse2===motdepasse1){
+       $('.blue').html("les mots de passe sont identique");
+   }
+});
+$('#email').keyup(function () {
+   var b=$('#email').val();
+   if (b.match(/[.]/) && b.match(/[@]/)){
+     $('.force2').css("color","green");
+     $('#verifemail').html("valide");
+   }
 });

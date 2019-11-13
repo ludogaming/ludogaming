@@ -6,12 +6,12 @@ body,html{
 
 }
 .lol{
-    padding-left: 940px;
+    padding-left: 650px;
 color: #007bff;
 
 }
 .lol2{
-    padding-left: 850px;
+    padding-left: 550px;
     color: #007bff;
 }
 .label{
@@ -31,12 +31,19 @@ color: #007bff;
     font-size: 30px;
 }
 .lol3{
-    padding-left: 750px;
+    padding-left: 250px;
     color: #007bff;
 
 }
 .blue{
     color: limegreen;
-    padding-top: 165px ;
+    padding-top: 90px ;
     font-size: 25px;
+}
+.lol4{
+    padding-left: 600px;
+    color: #007bff;
+}
+.force2{
+    color: red;
 }
