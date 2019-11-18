@@ -36,7 +36,64 @@
             <input type="text" class="form-control text-center align-items-center" id="email" aria-describedby="verifemail" placeholder="entrez votre email">
             <small id="verifemail" class="form-text grospetit force2">invalide</small>
         </div>
+
+            <div class="radio" id="radio">
+                <h4 class="label2 text-center align-items-center">choix du costume</h4>
+                <label class="bleucentre radio-inline" ><input type="radio" name="optradio" id="star"><strong>Starwars</strong></label>
+                <label class="bleu radio-inline"><input type="radio" name="optradio" id="marvel"><strong>Marvel</strong></label>
+            <label class="bleu radio-inline"><input type="radio" name="optradio" id="DC"><strong>DC</strong></label>
+        </div>
+        <div class="row caché" id="starwars">
+            <div class="col-4">
+                <select class="form-control" id="cos1">
+                    <option selected>choisir...</option>
+                    <option>Yoda</option>
+                    <option>Obiwan</option>
+                    <option>darth vader</option>
+                </select>
+
+
+        </div>
+            <div class="col-4 offset-4">
+                <img src="img/il_570xN.902260158_my9q.jpg" class=" paddint"/>
+            </div>
+        </div>
+        <div class="row caché" id="marveld">
+            <div class="col-4">
+               <select class="form-control" id="cos2">
+                   <option selected>choisir...</option>
+                   <option>spiderman</option>
+                   <option>thor</option>
+                   <option>hulk</option>
+                   <option>quick silver</option>
+               </select>
+
+
+            </div>
+            <div class="col-4 ">
+                <img src="img/spider-man_main-1280x720 (2).jpg" class="padint2"/>
+            </div>
+        </div>
+        <div class="row caché" id="dcd">
+            <div class="col-4">
+                <select class="form-control" id="cos3">
+                    <option selected>choisir...</option>
+                    <option>batman</option>
+                    <option>superman</option>
+                    <option>flash</option>
+                    <option>arrow</option>
+                </select>
+
+
+            </div>
+            <div class="col-4 offset-4">
+                <img src="img/batman-85-card-stock-var-ed-vo.jpg" class=" paddint3"/>
+            </div>
+        </div>
+        <button type="button" class="btn btn-success btn-lg btn-block text-center align-items-center" id="envoyé">envoyé</button>
     </div>
+
+
 
 
 </form>

@@ -1,6 +1,7 @@
 body,html{
     background-image: url("../img/image-asset.jpeg");
     background-size: cover;
+    background-attachment: fixed;
 
 
 
@@ -46,4 +47,30 @@ color: #007bff;
 }
 .force2{
     color: red;
+}
+.bleu{
+    color: #007bff;
+    padding-left: 150px;
+    font-size:25px ;
+}
+.label2{
+    font-size: 60px;
+    color: #007bff;
+}
+.bleucentre{
+    color: #007bff;
+    padding-left: 475px;
+    font-size:25px ;
+}
+.caché{
+    display: none;
+}
+.paddint{
+    padding-left: 400px;
+}
+.padint2{
+    padding-left: 550px;
+}
+.paddint3{
+    padding-left: 350px;
 }

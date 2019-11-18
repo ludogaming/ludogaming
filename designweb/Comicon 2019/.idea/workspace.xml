@@ -31,7 +31,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/PhpstormProjects/Notes_De_Prog" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -39,16 +39,18 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.tabs" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ludov\Documents\Github\ludogaming\designweb\Comicon 2019\img" />
+      <recent name="C:\Users\ludov\PhpstormProjects\Comicon 2019" />
+      <recent name="C:\Users\ludov\PhpstormProjects\Comicon 2019\Bootstrap\css" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\ludov\Documents\Github\ludogaming\designweb\Comicon 2019\img" />
       <recent name="C:\Users\ludov\PhpstormProjects\Comicon 2019\Bootstrap\js" />
       <recent name="C:\Users\ludov\PhpstormProjects\Comicon 2019" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\ludov\PhpstormProjects\Comicon 2019" />
-      <recent name="C:\Users\ludov\PhpstormProjects\Comicon 2019\Bootstrap\css" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -79,7 +81,12 @@
       <workItem from="1573502260478" duration="6371000" />
       <workItem from="1573563597994" duration="1657000" />
       <workItem from="1573566082298" duration="5556000" />
-      <workItem from="1573649570583" duration="5774000" />
+      <workItem from="1573649570583" duration="5927000" />
+      <workItem from="1573676019560" duration="97000" />
+      <workItem from="1573685183980" duration="13065000" />
+      <workItem from="1573746629783" duration="270000" />
+      <workItem from="1573746915868" duration="97000" />
+      <workItem from="1573747025718" duration="111000" />
     </task>
     <servers />
   </component>

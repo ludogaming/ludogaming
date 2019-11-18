@@ -1,19 +1,15 @@
 var texte="SLAY";
 var erreur="Test";
 var texteid=$('#nomcomicon').html();
-$(document).on("keydown", "form", function(event) {
-    return event.key != "Enter";
-});
+
 $('#nomcomicon').each(function () {
 $('#nomcomicon').keyup(function () {
 if (texteid==="SLAY"||"Test"){
 $('#valide').html("nom usager non disponible");
 $('.true').css("color","red");
-$('#valide').show();
+
 }
-else {
-    $('#valide').show();
-}
+
 });
 });
 $('#motdepasse').keyup(function () {
@@ -41,4 +37,30 @@ $('#email').keyup(function () {
      $('.force2').css("color","green");
      $('#verifemail').html("valide");
    }
+});
+$('#star').click(function () {
+$('#starwars').show();
+});
+$('#marvel').click(function () {
+    $('#marveld').show();
+});
+$('#DC').click(function () {
+    $('#dcd').show();
+});
+$('#envoyé').click(function () {
+    var nom= $('#nomcomicon').val();
+    var mot=$('#motdepasse').val();
+    var email=$('#email').val();
+    var typecostume=$('#radio').html();
+    var choixcostume;
+    if (typecostume==="Starwars"){
+        choixcostume=$('#cos1').val();
+    }
+    else if (typecostume==="Marvel"){
+        choixcostume=$('#cos2').val();
+    }
+    else  if (typecostume==="DC"){
+        choixcostume=$('#cos3').val();
+    }
+   alert("nom =" +nom+"mot de passe ="+ mot+"email ="+ email+"type de costume=" +typecostume+"choix de costume ="+choixcostume);
 });
