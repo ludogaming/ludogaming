@@ -19,3 +19,14 @@ body,html{
 .modif{
     background-color: white;
 }
+#bgmodif{
+    background-image: url("../background/noir.jpg");
+}
+.bas{
+    padding-top: 115px;
+}
+#lol{
+    color: #c82333;
+}
+
+
