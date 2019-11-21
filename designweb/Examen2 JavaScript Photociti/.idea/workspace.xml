@@ -31,7 +31,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/background" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -69,7 +69,9 @@
       <option name="presentableId" value="Default" />
       <updated>1574108527783</updated>
       <workItem from="1574108529720" duration="6597000" />
-      <workItem from="1574167813730" duration="6587000" />
+      <workItem from="1574167813730" duration="8149000" />
+      <workItem from="1574188132334" duration="523000" />
+      <workItem from="1574342940419" duration="3306000" />
     </task>
     <servers />
   </component>

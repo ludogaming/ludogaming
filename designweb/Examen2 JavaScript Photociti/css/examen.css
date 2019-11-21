@@ -16,9 +16,8 @@ body,html{
     background-clip: text;
     font-size: 70px;
 }
-.modif{
-    background-color: white;
-}
+
+
 #bgmodif{
     background-image: url("../background/noir.jpg");
 }
@@ -26,7 +25,12 @@ body,html{
     padding-top: 115px;
 }
 #lol{
+    color: #007bff;
+    font-size: 20px;
+}
+#lol2{
     color: #c82333;
+    font-size:20px;
 }
 
 
