@@ -6,7 +6,7 @@ $('#mots').keypress(function (event) {
         lettres();
     }
 });
-
+var lettre;
 
 
 $('#sumbit').click(function (event) {
@@ -505,6 +505,7 @@ function lettres() {
         }
     });
         $('#1').on('click',function () {
+            lettre=$(this);
             $('#exampleModal').modal('show');
             if (mot[0] === "*") {
                 $('#m1').attr("src", "Letters/CS/CS1.jpg");
@@ -522,6 +523,7 @@ function lettres() {
         }
         });
         $('#2').on('click', function () {
+            lettre=$(this);
             $('#exampleModal').modal('show');
             if (mot[1] === "*") {
                 $('#m1').attr("src", "Letters/CS/CS1.jpg");
@@ -539,6 +541,7 @@ function lettres() {
         }
         });
         $('#3').on('click', function () {
+            lettre=$(this);
             $('#exampleModal').modal('show');
             if (mot[2] === "*") {
                 $('#m1').attr("src", "Letters/CS/CS1.jpg");
@@ -558,6 +561,7 @@ function lettres() {
         }
         });
         $('#4').on('click', function () {
+            lettre=$(this);
             $('#exampleModal').modal('show');
             if (mot[3] === "*") {
                 $('#m1').attr("src", "Letters/CS/CS1.jpg");
@@ -577,6 +581,7 @@ function lettres() {
         }
         });
         $('#5').on('click', function () {
+            lettre=$(this);
             $('#exampleModal').modal('show');
             if (mot[4] === "*") {
                 $('#m1').attr("src", "Letters/CS/CS1.jpg");
@@ -594,6 +599,7 @@ function lettres() {
         }
         });
         $('#6').on('click', function () {
+            lettre=$(this);
             $('#exampleModal').modal('show');
             if (mot[5] === "*") {
                 $('#m1').attr("src", "Letters/CS/CS1.jpg");
@@ -611,6 +617,7 @@ function lettres() {
         }
         });
         $('#7').on('click', function () {
+            lettre=$(this);
             $('#exampleModal').modal('show');
             if (mot[6] === "*") {
                 $('#m1').attr("src", "Letters/CS/CS1.jpg");
@@ -628,6 +635,7 @@ function lettres() {
         }
         });
         $('#8').on('click', function () {
+            lettre=$(this);
             $('#exampleModal').modal('show');
             if (mot[7] === "*") {
                 $('#m1').attr("src", "Letters/CS/CS1.jpg");
@@ -645,6 +653,7 @@ function lettres() {
         }
         });
         $('#9').on('click', function () {
+            lettre=$(this);
             $('#exampleModal').modal('show');
             if (mot[8] === "*") {
                 $('#m1').attr("src", "Letters/CS/CS1.jpg");
@@ -662,6 +671,7 @@ function lettres() {
         }
         });
         $('#10').on('click', function () {
+            lettre=$(this);
             $('#exampleModal').modal('show');
             if (mot[9] === "*") {
                 $('#m1').attr("src", "Letters/CS/CS1.jpg");
@@ -679,6 +689,7 @@ function lettres() {
         }
         });
         $('#11').on('click', function () {
+            lettre=$(this);
             $('#exampleModal').modal('show');
             if (mot[10] === "*") {
                 $('#m1').attr("src", "Letters/CS/CS1.jpg");
@@ -696,6 +707,7 @@ function lettres() {
         }
         });
         $('#12').on('click', function () {
+            lettre=$(this);
             $('#exampleModal').modal('show');
             if (mot[11] === "*") {
                 $('#m1').attr("src", "Letters/CS/CS1.jpg");
@@ -712,6 +724,30 @@ function lettres() {
             $('#m5').attr("src", "Letters/" + l12 + "/" + l12 + "5.jpg");
         }
         });
+        $('#m2').click(function () {
+            var nouvel=$(this).attr("src");
+            $("#"+ lettre.attr("id")).attr("src",nouvel);
+        });
+    $('#m1').click(function () {
+        var nouvel=$(this).attr("src");
+        $("#"+ lettre.attr("id")).attr("src",nouvel);
+    });
+
+    $('#m3').click(function () {
+        var nouvel=$(this).attr("src");
+        $("#"+ lettre.attr("id")).attr("src",nouvel);
+    });
+
+    $('#m4').click(function () {
+        var nouvel=$(this).attr("src");
+        $("#"+ lettre.attr("id")).attr("src",nouvel);
+    });
+
+    $('#m5').click(function () {
+        var nouvel=$(this).attr("src");
+        $("#"+ lettre.attr("id")).attr("src",nouvel);
+    });
+
 
 }
     /* else {
