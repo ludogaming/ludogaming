@@ -284,14 +284,40 @@ function emplacement() {
         else if (longueur===6 ){
             $('.modif').removeClass("col-1");
             $('.modif').addClass("col-2");
+            $('#g').hide();
             $('#h').hide();
             $('#i').hide();
             $('#j').hide();
             $('#k').hide();
             $('#l').hide();
+
         }
         else if (longueur>=7 && longueur<=12 ){
-
+            if (longueur===7){
+                $('#h').hide();
+                $('#i').hide();
+                $('#j').hide();
+                $('#k').hide();
+                $('#l').hide();
+            }
+            if (longueur===8){
+                $('#i').hide();
+                $('#j').hide();
+                $('#k').hide();
+                $('#l').hide();
+            }
+            if (longueur===9){
+                $('#j').hide();
+                $('#k').hide();
+                $('#l').hide();
+            }
+            if (longueur===10){
+                $('#k').hide();
+                $('#l').hide();
+            }
+            if (longueur===11){
+                $('#l').hide();
+            }
         }
 
     }
