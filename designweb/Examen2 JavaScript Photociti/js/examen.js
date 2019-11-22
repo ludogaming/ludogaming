@@ -2,7 +2,6 @@ $('#mots').keypress(function (event) {
     var keycode = (event.keyCode ? event.keyCode : event.which);
     if (keycode == '13') {
         longueur();
-
         emplacement();
         lettres();
     }
@@ -12,7 +11,6 @@ $('#mots').keypress(function (event) {
 
 $('#sumbit').click(function (event) {
     longueur();
-
     emplacement();
     lettres();
    // treslong();
@@ -196,9 +194,7 @@ $('#sumbit').click(function (event) {
         else if (l1==="Z"){
             $('#modif').attr('<img src="Letters/Z/Z1.jpg" />');
         }
-        else if (l1==="*"){
-            $('#modif').attr('<img src="Letters/CS/CS1.jpg" />');
-        }
+
 
 
 
@@ -290,22 +286,116 @@ $(document).keypress(
 function lettres() {
     var mot=$('#mots').val();
     var lenght=mot.length;
-    for (lenght )
-    var l1=mot[0].toUpperCase();
-    var l2=mot[1].toUpperCase();
-    var l3=mot[2].toUpperCase();
-    var l4=mot[3].toUpperCase();
-    var l5=mot[4].toUpperCase();
-    var l6=mot[5].toUpperCase();
-    var l7=mot[6].toUpperCase();
-    var l8=mot[7].toUpperCase();
-    var l9=mot[8].toUpperCase();
-    var l10=mot[9].toUpperCase();
-    var l11=mot[10].toUpperCase()   ;
-    var l12=mot[11].toUpperCase();
+    var compteur;
+    for (compteur=1;compteur<=2;compteur++){
+        if (lenght===3){
+            var l1=mot[0].toUpperCase();
+            var l2=mot[1].toUpperCase();
+            var l3=mot[2].toUpperCase();
+        }
+        if (lenght===4){
+            var l1=mot[0].toUpperCase();
+            var l2=mot[1].toUpperCase();
+            var l3=mot[2].toUpperCase();
+            var l4=mot[3].toUpperCase();
+        }
+        if (lenght===5){
+            var l1=mot[0].toUpperCase();
+            var l2=mot[1].toUpperCase();
+            var l3=mot[2].toUpperCase();
+            var l4=mot[3].toUpperCase();
+            var l5=mot[4].toUpperCase();
+        }
+        if (lenght===6){
+            var l1=mot[0].toUpperCase();
+            var l2=mot[1].toUpperCase();
+            var l3=mot[2].toUpperCase();
+            var l4=mot[3].toUpperCase();
+            var l5=mot[4].toUpperCase();
+            var l6=mot[5].toUpperCase();
+        }
+        if (lenght===7){
+            var l1=mot[0].toUpperCase();
+            var l2=mot[1].toUpperCase();
+            var l3=mot[2].toUpperCase();
+            var l4=mot[3].toUpperCase();
+            var l5=mot[4].toUpperCase();
+            var l6=mot[5].toUpperCase();
+            var l7=mot[6].toUpperCase();
+
+        }
+        if (lenght===8){
+            var l1=mot[0].toUpperCase();
+            var l2=mot[1].toUpperCase();
+            var l3=mot[2].toUpperCase();
+            var l4=mot[3].toUpperCase();
+            var l5=mot[4].toUpperCase();
+            var l6=mot[5].toUpperCase();
+            var l7=mot[6].toUpperCase();
+            var l8=mot[7].toUpperCase();
+
+        }
+        if (lenght===9){
+            var l1=mot[0].toUpperCase();
+            var l2=mot[1].toUpperCase();
+            var l3=mot[2].toUpperCase();
+            var l4=mot[3].toUpperCase();
+            var l5=mot[4].toUpperCase();
+            var l6=mot[5].toUpperCase();
+            var l7=mot[6].toUpperCase();
+            var l8=mot[7].toUpperCase();
+            var l9=mot[8].toUpperCase();
+
+
+        }
+        if (lenght===10){
+            var l1=mot[0].toUpperCase();
+            var l2=mot[1].toUpperCase();
+            var l3=mot[2].toUpperCase();
+            var l4=mot[3].toUpperCase();
+            var l5=mot[4].toUpperCase();
+            var l6=mot[5].toUpperCase();
+            var l7=mot[6].toUpperCase();
+            var l8=mot[7].toUpperCase();
+            var l9=mot[8].toUpperCase();
+            var l10=mot[9].toUpperCase();
+
+        }
+        if (lenght===11){
+            var l1=mot[0].toUpperCase();
+            var l2=mot[1].toUpperCase();
+            var l3=mot[2].toUpperCase();
+            var l4=mot[3].toUpperCase();
+            var l5=mot[4].toUpperCase();
+            var l6=mot[5].toUpperCase();
+            var l7=mot[6].toUpperCase();
+            var l8=mot[7].toUpperCase();
+            var l9=mot[8].toUpperCase();
+            var l10=mot[9].toUpperCase();
+            var l11=mot[10].toUpperCase()   ;
+
+
+
+        }
+        if (lenght===12){
+            var l1=mot[0].toUpperCase();
+            var l2=mot[1].toUpperCase();
+            var l3=mot[2].toUpperCase();
+            var l4=mot[3].toUpperCase();
+            var l5=mot[4].toUpperCase();
+            var l6=mot[5].toUpperCase();
+            var l7=mot[6].toUpperCase();
+            var l8=mot[7].toUpperCase();
+            var l9=mot[8].toUpperCase();
+            var l10=mot[9].toUpperCase();
+            var l11=mot[10].toUpperCase()   ;
+            var l12=mot[11].toUpperCase();
+
+        }
+    }
 
    if (lenght<13){
-       alert("allo");
+
        $('#1').attr("src","Letters/"+ l1 +"/"+ l1 +"1.jpg");
        $('#2').attr("src","Letters/"+ l2 +"/"+ l2 +"1.jpg");
        $('#3').attr("src","Letters/"+ l3 +"/"+ l3 +"1.jpg");
@@ -318,8 +408,161 @@ function lettres() {
        $('#10').attr("src","Letters/"+l10+"/"+l10+"1.jpg");
        $('#11').attr("src","Letters/"+l11+"/"+l11+"1.jpg");
        $('#12').attr("src","Letters/"+l12+"/"+l12+"1.jpg");
+      if (l1==="*"){
+          $('#1').attr("src","Letters/CS/CS1.jpg");
+      }
+       if (l2==="*"){
+           $('#2').attr("src","Letters/CS/CS1.jpg");
+       }
+       if (l3==="*"){
+           $('#3').attr("src","Letters/CS/CS1.jpg");
+       }
+       if (l4==="*"){
+           $('#4').attr("src","Letters/CS/CS1.jpg");
+       }
+       if (l5==="*"){
+           $('#5').attr("src","Letters/CS/CS1.jpg");
+       }
+       if (l6==="*"){
+           $('#6').attr("src","Letters/CS/CS1.jpg");
+       }
+       if (l7==="*"){
+           $('#7').attr("src","Letters/CS/CS1.jpg");
+       }
+       if (l8==="*"){
+           $('#8').attr("src","Letters/CS/CS1.jpg");
+       }
+       if (l9==="*"){
+           $('#9').attr("src","Letters/CS/CS1.jpg");
+       }
+       if (l10==="*"){
+           $('#10').attr("src","Letters/CS/CS1.jpg");
+       }
+       if (l11==="*"){
+           $('#11').attr("src","Letters/CS/CS1.jpg");
+       }
+       if (l12==="*"){
+           $('#12').attr("src","Letters/CS/CS1.jpg");
+       }
+
 
    }
+if (mot!=="*"){
+   $('#1').on('click',function () {
+       $('#exampleModal').modal('show');
+       if (this==="Letters/CS/CS1.jpg"){
+           $('#m1').attr("src","Letters/CS/CS1.jpg");
+           $('#m2').attr("src","Letters/CS/CS2.jpg");
+           $('#m3').attr("src","Letters/"+ l1 +"/"+ l1 +"3.jpg");
+           $('#m4').attr("src","Letters/"+ l1 +"/"+ l1 +"4.jpg");
+           $('#m5').attr("src","Letters/"+ l1 +"/"+ l1 +"5.jpg");
+       }
+       $('#m1').attr("src","Letters/"+ l1 +"/"+ l1 +"1.jpg");
+       $('#m2').attr("src","Letters/"+ l1 +"/"+ l1 +"2.jpg");
+       $('#m3').attr("src","Letters/"+ l1 +"/"+ l1 +"3.jpg");
+       $('#m4').attr("src","Letters/"+ l1 +"/"+ l1 +"4.jpg");
+       $('#m5').attr("src","Letters/"+ l1 +"/"+ l1 +"5.jpg");
+
+   });
+    $('#2').on('click',function () {
+        $('#exampleModal').modal('show');
+        $('#m1').attr("src","Letters/"+ l2 +"/"+ l2 +"1.jpg");
+        $('#m2').attr("src","Letters/"+ l2 +"/"+ l2 +"2.jpg");
+        $('#m3').attr("src","Letters/"+ l2 +"/"+ l2 +"3.jpg");
+        $('#m4').attr("src","Letters/"+ l2 +"/"+ l2 +"4.jpg");
+        $('#m5').attr("src","Letters/"+ l2 +"/"+ l2 +"5.jpg");
+
+    });
+    $('#3').on('click',function () {
+        $('#exampleModal').modal('show');
+        $('#m1').attr("src","Letters/"+ l3 +"/"+ l3 +"1.jpg");
+        $('#m2').attr("src","Letters/"+ l3 +"/"+ l3 +"2.jpg");
+        $('#m3').attr("src","Letters/"+ l3 +"/"+ l3 +"3.jpg");
+        $('#m4').attr("src","Letters/"+ l3 +"/"+ l3 +"4.jpg");
+        $('#m5').attr("src","Letters/"+ l3 +"/"+ l3 +"5.jpg");
+
+    });
+    $('#4').on('click',function () {
+        $('#exampleModal').modal('show');
+        $('#m1').attr("src","Letters/"+ l4 +"/"+ l4 +"1.jpg");
+        $('#m2').attr("src","Letters/"+ l4 +"/"+ l4 +"2.jpg");
+        $('#m3').attr("src","Letters/"+ l4 +"/"+ l4 +"3.jpg");
+        $('#m4').attr("src","Letters/"+ l4 +"/"+ l4 +"4.jpg");
+        $('#m5').attr("src","Letters/"+ l4 +"/"+ l4 +"5.jpg");
+
+    });
+    $('#5').on('click',function () {
+        $('#exampleModal').modal('show');
+        $('#m1').attr("src","Letters/"+ l5 +"/"+ l5 +"1.jpg");
+        $('#m2').attr("src","Letters/"+ l5 +"/"+ l5 +"2.jpg");
+        $('#m3').attr("src","Letters/"+ l5 +"/"+ l5 +"3.jpg");
+        $('#m4').attr("src","Letters/"+ l5 +"/"+ l5 +"4.jpg");
+        $('#m5').attr("src","Letters/"+ l5 +"/"+ l5 +"5.jpg");
+
+    });
+    $('#6').on('click',function () {
+        $('#exampleModal').modal('show');
+        $('#m1').attr("src","Letters/"+ l6 +"/"+ l6 +"1.jpg");
+        $('#m2').attr("src","Letters/"+ l6 +"/"+ l6 +"2.jpg");
+        $('#m3').attr("src","Letters/"+ l6 +"/"+ l6 +"3.jpg");
+        $('#m4').attr("src","Letters/"+ l6 +"/"+ l6 +"4.jpg");
+        $('#m5').attr("src","Letters/"+ l6 +"/"+ l6 +"5.jpg");
+
+    });
+    $('#7').on('click',function () {
+        $('#exampleModal').modal('show');
+        $('#m1').attr("src","Letters/"+ l7 +"/"+ l7 +"1.jpg");
+        $('#m2').attr("src","Letters/"+ l7 +"/"+ l7 +"2.jpg");
+        $('#m3').attr("src","Letters/"+ l7 +"/"+ l7 +"3.jpg");
+        $('#m4').attr("src","Letters/"+ l7 +"/"+ l7 +"4.jpg");
+        $('#m5').attr("src","Letters/"+ l7 +"/"+ l7 +"5.jpg");
+
+    });
+    $('#8').on('click',function () {
+        $('#exampleModal').modal('show');
+        $('#m1').attr("src","Letters/"+ l8 +"/"+ l8 +"1.jpg");
+        $('#m2').attr("src","Letters/"+ l8 +"/"+ l8 +"2.jpg");
+        $('#m3').attr("src","Letters/"+ l8 +"/"+ l8 +"3.jpg");
+        $('#m4').attr("src","Letters/"+ l8 +"/"+ l8 +"4.jpg");
+        $('#m5').attr("src","Letters/"+ l8 +"/"+ l8 +"5.jpg");
+
+    });
+    $('#1').on('click',function () {
+        $('#exampleModal').modal('show');
+        $('#m1').attr("src","Letters/"+ l1 +"/"+ l1 +"1.jpg");
+        $('#m2').attr("src","Letters/"+ l1 +"/"+ l1 +"2.jpg");
+        $('#m3').attr("src","Letters/"+ l1 +"/"+ l1 +"3.jpg");
+        $('#m4').attr("src","Letters/"+ l1 +"/"+ l1 +"4.jpg");
+        $('#m5').attr("src","Letters/"+ l1 +"/"+ l1 +"5.jpg");
+
+    });
+    $('#1').on('click',function () {
+        $('#exampleModal').modal('show');
+        $('#m1').attr("src","Letters/"+ l1 +"/"+ l1 +"1.jpg");
+        $('#m2').attr("src","Letters/"+ l1 +"/"+ l1 +"2.jpg");
+        $('#m3').attr("src","Letters/"+ l1 +"/"+ l1 +"3.jpg");
+        $('#m4').attr("src","Letters/"+ l1 +"/"+ l1 +"4.jpg");
+        $('#m5').attr("src","Letters/"+ l1 +"/"+ l1 +"5.jpg");
+
+    });
+    $('#1').on('click',function () {
+        $('#exampleModal').modal('show');
+        $('#m1').attr("src","Letters/"+ l1 +"/"+ l1 +"1.jpg");
+        $('#m2').attr("src","Letters/"+ l1 +"/"+ l1 +"2.jpg");
+        $('#m3').attr("src","Letters/"+ l1 +"/"+ l1 +"3.jpg");
+        $('#m4').attr("src","Letters/"+ l1 +"/"+ l1 +"4.jpg");
+        $('#m5').attr("src","Letters/"+ l1 +"/"+ l1 +"5.jpg");
+
+    });
+    $('#1').on('click',function () {
+        $('#exampleModal').modal('show');
+        $('#m1').attr("src","Letters/"+ l1 +"/"+ l1 +"1.jpg");
+        $('#m2').attr("src","Letters/"+ l1 +"/"+ l1 +"2.jpg");
+        $('#m3').attr("src","Letters/"+ l1 +"/"+ l1 +"3.jpg");
+        $('#m4').attr("src","Letters/"+ l1 +"/"+ l1 +"4.jpg");
+        $('#m5').attr("src","Letters/"+ l1 +"/"+ l1 +"5.jpg");
+
+    });
 }
            /*if (l1==="A"){
                $('#modif').attr("src","Letters/A/A1.jpg");
@@ -331,7 +574,7 @@ function lettres() {
                $('#modif').attr("src","Letters/C/C1.jpg");
            }
            else if (l1==="D"){
-               $('#modif').attr( "src","Letters/D/D1.jpg");
+               $('}#modif').attr( "src","Letters/D/D1.jpg");
            }
            else if (l1==="E"){
                $('#modif').attr("src","Letters/E/E1.jpg" );
@@ -396,10 +639,5 @@ function lettres() {
            else if (l1==="Y"){
                $('#modif').attr("src","Letters/Y/Y1.jpg" );
            }
-           else if (l1==="Z"){
-               $('#modif').attr("src","Letters/Z/Z1.jpg" );
-           }
-           else if (l1==="*"){
-               $('#modif').attr("src","Letters/CS/CS1.jpg" );
-           }*/
 
+*/
