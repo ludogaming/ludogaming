@@ -208,7 +208,27 @@ $('#sumbit').click(function (event) {
 
     }
 }*/
-
+$('#bleu').click(function () {
+    $('#bgmodif').css("background-image", "url(background/bleu.jpg");
+});
+$('#blanc').click(function () {
+    $('#bgmodif').css("background-image", "url(background/blanc.jpg");
+});
+$('#bleufoncé').click(function () {
+    $('#bgmodif').css("background-image", "url(background/bleuFonce.jpg");
+});
+$('#gris').click(function () {
+    $('#bgmodif').css("background-image", "url(background/gris.jpg");
+});
+$('#noir').click(function () {
+    $('#bgmodif').css("background-image", "url(background/noir.jpg");
+});
+$('#rose').click(function () {
+    $('#bgmodif').css("background-image", "url(background/rose.jpg");
+});
+$('#rouge').click(function () {
+    $('#bgmodif').css("background-image", "url(background/rouge.jpg");
+});
 function longueur() {
     var longeur=$('#mots').val();
     if (longeur.length<3){
@@ -447,124 +467,236 @@ function lettres() {
 
 
    }
-if (mot!=="*"){
-   $('#1').on('click',function () {
-       $('#exampleModal').modal('show');
-       if (this==="Letters/CS/CS1.jpg"){
-           $('#m1').attr("src","Letters/CS/CS1.jpg");
-           $('#m2').attr("src","Letters/CS/CS2.jpg");
-           $('#m3').attr("src","Letters/"+ l1 +"/"+ l1 +"3.jpg");
-           $('#m4').attr("src","Letters/"+ l1 +"/"+ l1 +"4.jpg");
-           $('#m5').attr("src","Letters/"+ l1 +"/"+ l1 +"5.jpg");
-       }
-       $('#m1').attr("src","Letters/"+ l1 +"/"+ l1 +"1.jpg");
-       $('#m2').attr("src","Letters/"+ l1 +"/"+ l1 +"2.jpg");
-       $('#m3').attr("src","Letters/"+ l1 +"/"+ l1 +"3.jpg");
-       $('#m4').attr("src","Letters/"+ l1 +"/"+ l1 +"4.jpg");
-       $('#m5').attr("src","Letters/"+ l1 +"/"+ l1 +"5.jpg");
 
-   });
-    $('#2').on('click',function () {
-        $('#exampleModal').modal('show');
-        $('#m1').attr("src","Letters/"+ l2 +"/"+ l2 +"1.jpg");
-        $('#m2').attr("src","Letters/"+ l2 +"/"+ l2 +"2.jpg");
-        $('#m3').attr("src","Letters/"+ l2 +"/"+ l2 +"3.jpg");
-        $('#m4').attr("src","Letters/"+ l2 +"/"+ l2 +"4.jpg");
-        $('#m5').attr("src","Letters/"+ l2 +"/"+ l2 +"5.jpg");
-
+    //if (mot[i] !== "*") {
+    $('.modif').click(function () {
+    var nb;
+        nb = $(this).attr('id');
+        if (mot[nb - 1] === '*') {
+            car = "CS";
+        } else {
+            car = mot[nb - 1].toUpperCase();
+        }
     });
-    $('#3').on('click',function () {
-        $('#exampleModal').modal('show');
-        $('#m1').attr("src","Letters/"+ l3 +"/"+ l3 +"1.jpg");
-        $('#m2').attr("src","Letters/"+ l3 +"/"+ l3 +"2.jpg");
-        $('#m3').attr("src","Letters/"+ l3 +"/"+ l3 +"3.jpg");
-        $('#m4').attr("src","Letters/"+ l3 +"/"+ l3 +"4.jpg");
-        $('#m5').attr("src","Letters/"+ l3 +"/"+ l3 +"5.jpg");
+        $('#1').on('click',function () {
+            $('#exampleModal').modal('show');
+            if (mot[0] === "*") {
+                $('#m1').attr("src", "Letters/CS/CS1.jpg");
+                $('#m2').attr("src", "Letters/CS/CS2.jpg");
+                $('#m3').attr("src", "Letters/CS/CS3.jpg");
+                $('#m4').attr("src", "Letters/CS/CS4.jpg");
+                $('#m5').attr("src", "Letters/CS/CS5.jpg");
+            }
+            else {
+            $('#m1').attr("src", "Letters/" + l1 + "/" + l1 + "1.jpg");
+            $('#m2').attr("src", "Letters/" + l1 + "/" + l1 + "2.jpg");
+            $('#m3').attr("src", "Letters/" + l1 + "/" + l1 + "3.jpg");
+            $('#m4').attr("src", "Letters/" + l1 + "/" + l1 + "4.jpg");
+            $('#m5').attr("src", "Letters/" + l1 + "/" + l1 + "5.jpg");
+        }
+        });
+        $('#2').on('click', function () {
+            $('#exampleModal').modal('show');
+            if (mot[1] === "*") {
+                $('#m1').attr("src", "Letters/CS/CS1.jpg");
+                $('#m2').attr("src", "Letters/CS/CS2.jpg");
+                $('#m3').attr("src", "Letters/CS/CS3.jpg");
+                $('#m4').attr("src", "Letters/CS/CS4.jpg");
+                $('#m5').attr("src", "Letters/CS/CS5.jpg");
+            }
+            else{
+            $('#m1').attr("src", "Letters/" + l2 + "/" + l2 + "1.jpg");
+            $('#m2').attr("src", "Letters/" + l2 + "/" + l2 + "2.jpg");
+            $('#m3').attr("src", "Letters/" + l2 + "/" + l2 + "3.jpg");
+            $('#m4').attr("src", "Letters/" + l2 + "/" + l2 + "4.jpg");
+            $('#m5').attr("src", "Letters/" + l2 + "/" + l2 + "5.jpg");
+        }
+        });
+        $('#3').on('click', function () {
+            $('#exampleModal').modal('show');
+            if (mot[2] === "*") {
+                $('#m1').attr("src", "Letters/CS/CS1.jpg");
+                $('#m2').attr("src", "Letters/CS/CS2.jpg");
+                $('#m3').attr("src", "Letters/CS/CS3.jpg");
+                $('#m4').attr("src", "Letters/CS/CS4.jpg");
+                $('#m5').attr("src", "Letters/CS/CS5.jpg");
+            }
+            else {
 
-    });
-    $('#4').on('click',function () {
-        $('#exampleModal').modal('show');
-        $('#m1').attr("src","Letters/"+ l4 +"/"+ l4 +"1.jpg");
-        $('#m2').attr("src","Letters/"+ l4 +"/"+ l4 +"2.jpg");
-        $('#m3').attr("src","Letters/"+ l4 +"/"+ l4 +"3.jpg");
-        $('#m4').attr("src","Letters/"+ l4 +"/"+ l4 +"4.jpg");
-        $('#m5').attr("src","Letters/"+ l4 +"/"+ l4 +"5.jpg");
 
-    });
-    $('#5').on('click',function () {
-        $('#exampleModal').modal('show');
-        $('#m1').attr("src","Letters/"+ l5 +"/"+ l5 +"1.jpg");
-        $('#m2').attr("src","Letters/"+ l5 +"/"+ l5 +"2.jpg");
-        $('#m3').attr("src","Letters/"+ l5 +"/"+ l5 +"3.jpg");
-        $('#m4').attr("src","Letters/"+ l5 +"/"+ l5 +"4.jpg");
-        $('#m5').attr("src","Letters/"+ l5 +"/"+ l5 +"5.jpg");
+            $('#m1').attr("src", "Letters/" + l3 + "/" + l3 + "1.jpg");
+            $('#m2').attr("src", "Letters/" + l3 + "/" + l3 + "2.jpg");
+            $('#m3').attr("src", "Letters/" + l3 + "/" + l3 + "3.jpg");
+            $('#m4').attr("src", "Letters/" + l3 + "/" + l3 + "4.jpg");
+            $('#m5').attr("src", "Letters/" + l3 + "/" + l3 + "5.jpg");
+        }
+        });
+        $('#4').on('click', function () {
+            $('#exampleModal').modal('show');
+            if (mot[3] === "*") {
+                $('#m1').attr("src", "Letters/CS/CS1.jpg");
+                $('#m2').attr("src", "Letters/CS/CS2.jpg");
+                $('#m3').attr("src", "Letters/CS/CS3.jpg");
+                $('#m4').attr("src", "Letters/CS/CS4.jpg");
+                $('#m5').attr("src", "Letters/CS/CS5.jpg");
+            }
+            else {
 
-    });
-    $('#6').on('click',function () {
-        $('#exampleModal').modal('show');
-        $('#m1').attr("src","Letters/"+ l6 +"/"+ l6 +"1.jpg");
-        $('#m2').attr("src","Letters/"+ l6 +"/"+ l6 +"2.jpg");
-        $('#m3').attr("src","Letters/"+ l6 +"/"+ l6 +"3.jpg");
-        $('#m4').attr("src","Letters/"+ l6 +"/"+ l6 +"4.jpg");
-        $('#m5').attr("src","Letters/"+ l6 +"/"+ l6 +"5.jpg");
 
-    });
-    $('#7').on('click',function () {
-        $('#exampleModal').modal('show');
-        $('#m1').attr("src","Letters/"+ l7 +"/"+ l7 +"1.jpg");
-        $('#m2').attr("src","Letters/"+ l7 +"/"+ l7 +"2.jpg");
-        $('#m3').attr("src","Letters/"+ l7 +"/"+ l7 +"3.jpg");
-        $('#m4').attr("src","Letters/"+ l7 +"/"+ l7 +"4.jpg");
-        $('#m5').attr("src","Letters/"+ l7 +"/"+ l7 +"5.jpg");
+            $('#m1').attr("src", "Letters/" + l4 + "/" + l4 + "1.jpg");
+            $('#m2').attr("src", "Letters/" + l4 + "/" + l4 + "2.jpg");
+            $('#m3').attr("src", "Letters/" + l4 + "/" + l4 + "3.jpg");
+            $('#m4').attr("src", "Letters/" + l4 + "/" + l4 + "4.jpg");
+            $('#m5').attr("src", "Letters/" + l4 + "/" + l4 + "5.jpg");
+        }
+        });
+        $('#5').on('click', function () {
+            $('#exampleModal').modal('show');
+            if (mot[4] === "*") {
+                $('#m1').attr("src", "Letters/CS/CS1.jpg");
+                $('#m2').attr("src", "Letters/CS/CS2.jpg");
+                $('#m3').attr("src", "Letters/CS/CS3.jpg");
+                $('#m4').attr("src", "Letters/CS/CS4.jpg");
+                $('#m5').attr("src", "Letters/CS/CS5.jpg");
+            }
+            else {
+            $('#m1').attr("src", "Letters/" + l5 + "/" + l5 + "1.jpg");
+            $('#m2').attr("src", "Letters/" + l5 + "/" + l5 + "2.jpg");
+            $('#m3').attr("src", "Letters/" + l5 + "/" + l5 + "3.jpg");
+            $('#m4').attr("src", "Letters/" + l5 + "/" + l5 + "4.jpg");
+            $('#m5').attr("src", "Letters/" + l5 + "/" + l5 + "5.jpg");
+        }
+        });
+        $('#6').on('click', function () {
+            $('#exampleModal').modal('show');
+            if (mot[5] === "*") {
+                $('#m1').attr("src", "Letters/CS/CS1.jpg");
+                $('#m2').attr("src", "Letters/CS/CS2.jpg");
+                $('#m3').attr("src", "Letters/CS/CS3.jpg");
+                $('#m4').attr("src", "Letters/CS/CS4.jpg");
+                $('#m5').attr("src", "Letters/CS/CS5.jpg");
+            }
+            else {
+            $('#m1').attr("src", "Letters/" + l6 + "/" + l6 + "1.jpg");
+            $('#m2').attr("src", "Letters/" + l6 + "/" + l6 + "2.jpg");
+            $('#m3').attr("src", "Letters/" + l6 + "/" + l6 + "3.jpg");
+            $('#m4').attr("src", "Letters/" + l6 + "/" + l6 + "4.jpg");
+            $('#m5').attr("src", "Letters/" + l6 + "/" + l6 + "5.jpg");
+        }
+        });
+        $('#7').on('click', function () {
+            $('#exampleModal').modal('show');
+            if (mot[6] === "*") {
+                $('#m1').attr("src", "Letters/CS/CS1.jpg");
+                $('#m2').attr("src", "Letters/CS/CS2.jpg");
+                $('#m3').attr("src", "Letters/CS/CS3.jpg");
+                $('#m4').attr("src", "Letters/CS/CS4.jpg");
+                $('#m5').attr("src", "Letters/CS/CS5.jpg");
+            }
+            else {
+            $('#m1').attr("src", "Letters/" + l7 + "/" + l7 + "1.jpg");
+            $('#m2').attr("src", "Letters/" + l7 + "/" + l7 + "2.jpg");
+            $('#m3').attr("src", "Letters/" + l7 + "/" + l7 + "3.jpg");
+            $('#m4').attr("src", "Letters/" + l7 + "/" + l7 + "4.jpg");
+            $('#m5').attr("src", "Letters/" + l7 + "/" + l7 + "5.jpg");
+        }
+        });
+        $('#8').on('click', function () {
+            $('#exampleModal').modal('show');
+            if (mot[7] === "*") {
+                $('#m1').attr("src", "Letters/CS/CS1.jpg");
+                $('#m2').attr("src", "Letters/CS/CS2.jpg");
+                $('#m3').attr("src", "Letters/CS/CS3.jpg");
+                $('#m4').attr("src", "Letters/CS/CS4.jpg");
+                $('#m5').attr("src", "Letters/CS/CS5.jpg");
+            }
+            else {
+            $('#m1').attr("src", "Letters/" + l8 + "/" + l8 + "1.jpg");
+            $('#m2').attr("src", "Letters/" + l8 + "/" + l8 + "2.jpg");
+            $('#m3').attr("src", "Letters/" + l8 + "/" + l8 + "3.jpg");
+            $('#m4').attr("src", "Letters/" + l8 + "/" + l8 + "4.jpg");
+            $('#m5').attr("src", "Letters/" + l8 + "/" + l8 + "5.jpg");
+        }
+        });
+        $('#9').on('click', function () {
+            $('#exampleModal').modal('show');
+            if (mot[8] === "*") {
+                $('#m1').attr("src", "Letters/CS/CS1.jpg");
+                $('#m2').attr("src", "Letters/CS/CS2.jpg");
+                $('#m3').attr("src", "Letters/CS/CS3.jpg");
+                $('#m4').attr("src", "Letters/CS/CS4.jpg");
+                $('#m5').attr("src", "Letters/CS/CS5.jpg");
+            }
+            else {
+            $('#m1').attr("src", "Letters/" + l9 + "/" + l9 + "1.jpg");
+            $('#m2').attr("src", "Letters/" + l9 + "/" + l9 + "2.jpg");
+            $('#m3').attr("src", "Letters/" + l9 + "/" + l9 + "3.jpg");
+            $('#m4').attr("src", "Letters/" + l9 + "/" + l9 + "4.jpg");
+            $('#m5').attr("src", "Letters/" + l9 + "/" + l9 + "5.jpg");
+        }
+        });
+        $('#10').on('click', function () {
+            $('#exampleModal').modal('show');
+            if (mot[9] === "*") {
+                $('#m1').attr("src", "Letters/CS/CS1.jpg");
+                $('#m2').attr("src", "Letters/CS/CS2.jpg");
+                $('#m3').attr("src", "Letters/CS/CS3.jpg");
+                $('#m4').attr("src", "Letters/CS/CS4.jpg");
+                $('#m5').attr("src", "Letters/CS/CS5.jpg");
+            }
+            else {
+            $('#m1').attr("src", "Letters/" + l10 + "/" + l10 + "1.jpg");
+            $('#m2').attr("src", "Letters/" + l10 + "/" + l10 + "2.jpg");
+            $('#m3').attr("src", "Letters/" + l10 + "/" + l10 + "3.jpg");
+            $('#m4').attr("src", "Letters/" + l10 + "/" + l10 + "4.jpg");
+            $('#m5').attr("src", "Letters/" + l10 + "/" + l10 + "5.jpg");
+        }
+        });
+        $('#11').on('click', function () {
+            $('#exampleModal').modal('show');
+            if (mot[10] === "*") {
+                $('#m1').attr("src", "Letters/CS/CS1.jpg");
+                $('#m2').attr("src", "Letters/CS/CS2.jpg");
+                $('#m3').attr("src", "Letters/CS/CS3.jpg");
+                $('#m4').attr("src", "Letters/CS/CS4.jpg");
+                $('#m5').attr("src", "Letters/CS/CS5.jpg");
+            }
+            else {
+            $('#m1').attr("src", "Letters/" + l11 + "/" + l11 + "1.jpg");
+            $('#m2').attr("src", "Letters/" + l11 + "/" + l11 + "2.jpg");
+            $('#m3').attr("src", "Letters/" + l11 + "/" + l11 + "3.jpg");
+            $('#m4').attr("src", "Letters/" + l11 + "/" + l11 + "4.jpg");
+            $('#m5').attr("src", "Letters/" + l11 + "/" + l11 + "5.jpg");
+        }
+        });
+        $('#12').on('click', function () {
+            $('#exampleModal').modal('show');
+            if (mot[11] === "*") {
+                $('#m1').attr("src", "Letters/CS/CS1.jpg");
+                $('#m2').attr("src", "Letters/CS/CS2.jpg");
+                $('#m3').attr("src", "Letters/CS/CS3.jpg");
+                $('#m4').attr("src", "Letters/CS/CS4.jpg");
+                $('#m5').attr("src", "Letters/CS/CS5.jpg");
+            }
+            else {
+            $('#m1').attr("src", "Letters/" + l12 + "/" + l12 + "1.jpg");
+            $('#m2').attr("src", "Letters/" + l12 + "/" + l12 + "2.jpg");
+            $('#m3').attr("src", "Letters/" + l12 + "/" + l12 + "3.jpg");
+            $('#m4').attr("src", "Letters/" + l12 + "/" + l12 + "4.jpg");
+            $('#m5').attr("src", "Letters/" + l12 + "/" + l12 + "5.jpg");
+        }
+        });
 
-    });
-    $('#8').on('click',function () {
-        $('#exampleModal').modal('show');
-        $('#m1').attr("src","Letters/"+ l8 +"/"+ l8 +"1.jpg");
-        $('#m2').attr("src","Letters/"+ l8 +"/"+ l8 +"2.jpg");
-        $('#m3').attr("src","Letters/"+ l8 +"/"+ l8 +"3.jpg");
-        $('#m4').attr("src","Letters/"+ l8 +"/"+ l8 +"4.jpg");
-        $('#m5').attr("src","Letters/"+ l8 +"/"+ l8 +"5.jpg");
-
-    });
-    $('#1').on('click',function () {
-        $('#exampleModal').modal('show');
-        $('#m1').attr("src","Letters/"+ l1 +"/"+ l1 +"1.jpg");
-        $('#m2').attr("src","Letters/"+ l1 +"/"+ l1 +"2.jpg");
-        $('#m3').attr("src","Letters/"+ l1 +"/"+ l1 +"3.jpg");
-        $('#m4').attr("src","Letters/"+ l1 +"/"+ l1 +"4.jpg");
-        $('#m5').attr("src","Letters/"+ l1 +"/"+ l1 +"5.jpg");
-
-    });
-    $('#1').on('click',function () {
-        $('#exampleModal').modal('show');
-        $('#m1').attr("src","Letters/"+ l1 +"/"+ l1 +"1.jpg");
-        $('#m2').attr("src","Letters/"+ l1 +"/"+ l1 +"2.jpg");
-        $('#m3').attr("src","Letters/"+ l1 +"/"+ l1 +"3.jpg");
-        $('#m4').attr("src","Letters/"+ l1 +"/"+ l1 +"4.jpg");
-        $('#m5').attr("src","Letters/"+ l1 +"/"+ l1 +"5.jpg");
-
-    });
-    $('#1').on('click',function () {
-        $('#exampleModal').modal('show');
-        $('#m1').attr("src","Letters/"+ l1 +"/"+ l1 +"1.jpg");
-        $('#m2').attr("src","Letters/"+ l1 +"/"+ l1 +"2.jpg");
-        $('#m3').attr("src","Letters/"+ l1 +"/"+ l1 +"3.jpg");
-        $('#m4').attr("src","Letters/"+ l1 +"/"+ l1 +"4.jpg");
-        $('#m5').attr("src","Letters/"+ l1 +"/"+ l1 +"5.jpg");
-
-    });
-    $('#1').on('click',function () {
-        $('#exampleModal').modal('show');
-        $('#m1').attr("src","Letters/"+ l1 +"/"+ l1 +"1.jpg");
-        $('#m2').attr("src","Letters/"+ l1 +"/"+ l1 +"2.jpg");
-        $('#m3').attr("src","Letters/"+ l1 +"/"+ l1 +"3.jpg");
-        $('#m4').attr("src","Letters/"+ l1 +"/"+ l1 +"4.jpg");
-        $('#m5').attr("src","Letters/"+ l1 +"/"+ l1 +"5.jpg");
-
-    });
 }
-           /*if (l1==="A"){
+    /* else {
+        $('#m1').attr("src", "Letters/CS/CS1.jpg");
+        $('#m2').attr("src", "Letters/CS/CS2.jpg");
+        $('#m3').attr("src", "Letters/CS/CS3.jpg");
+        $('#m4').attr("src", "Letters/CS/CS4.jpg");
+        $('#m5').attr("src", "Letters/CS/CS5.jpg");
+    }
+}
+           if (l1==="A"){
                $('#modif').attr("src","Letters/A/A1.jpg");
            }
            else if (l1==="B"){
