@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fe3ee9a7-1a0e-4cb5-85cb-593f823114ed" name="Default Changelist" comment="" />
+    <list default="true" id="74fadee9-5df9-4075-83df-e51ba9eb9d39" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,19 +18,20 @@
       <list>
         <option value="HTML File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="ProjectId" id="1RNdeDIcbqHgHa03WxtN6wPzBDQ" />
+  <component name="ProjectId" id="1URTxI65bAbJMb53l2vVnppaMSi" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Examen2 JavaScript Photociti" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/img" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -41,8 +42,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\ludov\Documents\Github\ludogaming\designweb\parrallax\img" />
-      <recent name="C:\Users\ludov\Documents\Github\ludogaming\designweb\parrallax" />
+      <recent name="C:\Users\ludov\Documents\Github\ludogaming\designweb\examin_final\img" />
+      <recent name="C:\Users\ludov\Documents\Github\ludogaming\designweb\examin_final" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -62,22 +63,12 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="fe3ee9a7-1a0e-4cb5-85cb-593f823114ed" name="Default Changelist" comment="" />
-      <created>1569511580331</created>
+      <changelist id="74fadee9-5df9-4075-83df-e51ba9eb9d39" name="Default Changelist" comment="" />
+      <created>1575318652423</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1569511580331</updated>
-      <workItem from="1569511581496" duration="2229000" />
-      <workItem from="1569869904400" duration="7446000" />
-      <workItem from="1569931198456" duration="7479000" />
-      <workItem from="1570027444768" duration="5257000" />
-      <workItem from="1570051631939" duration="5400000" />
-      <workItem from="1570111136307" duration="1342000" />
-      <workItem from="1570113610387" duration="151000" />
-      <workItem from="1570537419570" duration="203000" />
-      <workItem from="1571231269845" duration="137000" />
-      <workItem from="1571231429985" duration="3122000" />
-      <workItem from="1574778174340" duration="247000" />
+      <updated>1575318652423</updated>
+      <workItem from="1575318653759" duration="2820000" />
     </task>
     <servers />
   </component>
@@ -89,9 +80,7 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>

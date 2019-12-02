@@ -31,7 +31,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/PhpstormProjects/exercice" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -72,7 +72,12 @@
       <workItem from="1574167813730" duration="8149000" />
       <workItem from="1574188132334" duration="523000" />
       <workItem from="1574342940419" duration="35471000" />
-      <workItem from="1574443566963" duration="4766000" />
+      <workItem from="1574443566963" duration="5195000" />
+      <workItem from="1574718559664" duration="449000" />
+      <workItem from="1574775698290" duration="701000" />
+      <workItem from="1574778422917" duration="615000" />
+      <workItem from="1574959317928" duration="732000" />
+      <workItem from="1575318838644" duration="531000" />
     </task>
     <servers />
   </component>
