@@ -2,14 +2,14 @@
     background-color: #000000;
 }
 .navbar .navbar-brand {
-    color: #d54c3b;
+    color: #fefdfd;
 }
 .navbar .navbar-brand:hover,
 .navbar .navbar-brand:focus {
     color: #d54c3b;
 }
 .navbar .navbar-text {
-    color: #d54c3b;
+    color: #fefdfd;
 }
 .navbar .navbar-text a {
     color: #d54c3b;
@@ -19,7 +19,7 @@
     color: #d54c3b;
 }
 .navbar .navbar-nav .nav-link {
-    color: #d54c3b;
+    color: #fefdfd;
     border-radius: .25rem;
     margin: 0 0.25em;
 }
@@ -32,7 +32,7 @@
     border-color: #ffffff;
 }
 .navbar .navbar-nav .dropdown-menu .dropdown-item {
-    color: #d54c3b;
+    color: #fefdfd;
 }
 .navbar .navbar-nav .dropdown-menu .dropdown-item:hover,
 .navbar .navbar-nav .dropdown-menu .dropdown-item:focus,
@@ -60,14 +60,14 @@
     background-color: #ffffff;
 }
 .navbar .navbar-toggle .navbar-toggler-icon {
-    color: #d54c3b;
+    color: #fefdfd;
 }
 .navbar .navbar-collapse,
 .navbar .navbar-form {
-    border-color: #d54c3b;
+    border-color: #fefdfd;
 }
 .navbar .navbar-link {
-    color: #d54c3b;
+    color: #fefdfd;
 }
 .navbar .navbar-link:hover {
     color: #d54c3b;
@@ -75,7 +75,7 @@
 
 @media (max-width: 575px) {
     .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item {
-        color: #d54c3b;
+        color: #fefdfd;
     }
     .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item:hover,
     .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item:focus {
@@ -89,7 +89,7 @@
 
 @media (max-width: 767px) {
     .navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item {
-        color: #d54c3b;
+        color: #fefdfd;
     }
     .navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item:hover,
     .navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item:focus {
@@ -103,7 +103,7 @@
 
 @media (max-width: 991px) {
     .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item {
-        color: #d54c3b;
+        color: #fefdfd;
     }
     .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item:hover,
     .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item:focus {
@@ -117,7 +117,7 @@
 
 @media (max-width: 1199px) {
     .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item {
-        color: #d54c3b;
+        color: #fefdfd;
     }
     .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item:hover,
     .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item:focus {
@@ -130,7 +130,7 @@
 }
 
 .navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item {
-    color: #d54c3b;
+    color: #fefdfd;
 }
 .navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item:hover,
 .navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item:focus {
@@ -139,4 +139,74 @@
 .navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item.active {
     color: #d54c3b;
     background-color: #ffffff;
+}
+.fa-youtube{
+    color: red;
+    padding-left: 550px;
+    font-size: 35px;
+}
+.titre{
+    color: #c82333;
+    font-size: 100px;
+
+}
+html,body{
+    background-image: url("../img/f9f5338b2c78df84d8a4038613ff89a0.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: bottom;
+    background-repeat: repeat;
+    background-color: black;
+}
+.nintendo{
+   height: 50px;
+    width: 50px;
+    color: red;
+
+}
+.modal{
+    display: none;
+}
+.texte{
+    color: red;
+    font-size: 35px;
+}
+.titrenav{
+    color: #c82333;
+}
+.pacifist{
+    background-image: url("../img/tenor (2).gif");
+    background-size: cover;
+    background-repeat:no-repeat ;
+    min-height: 600px;
+}
+.texteblanc{
+    color: white;
+}
+.titresection{
+    color: red;
+    font-size: 35px;
+}
+.textesection{
+    color: red;
+    font-size: 20px;
+}
+.neutre{
+background-image: url("../img/630.gif");
+    background-size: cover;
+    background-position: center;
+    background-repeat:no-repeat ;
+    min-height: 600px;
+
+}
+.genocide{
+    background-image: url("../img/tenor (3).gif");
+    background-size: cover;
+    background-position: center;
+    background-repeat:no-repeat ;
+    min-height: 600px;
+}
+.textesection2{
+    color: white;
+    font-size: 20px;
 }
