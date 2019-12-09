@@ -721,8 +721,8 @@
     font-size: 100px;
 
 }
-html,body{
-    background-image: url("../img/f9f5338b2c78df84d8a4038613ff89a0.jpg");
+.under{
+    background-image: url("../img/undertale/f9f5338b2c78df84d8a4038613ff89a0.jpg");
     background-size: cover;
     background-attachment: fixed;
     background-position: bottom;
@@ -746,7 +746,7 @@ html,body{
     color: #c82333;
 }
 .pacifist{
-    background-image: url("../img/tenor (2).gif");
+    background-image: url("../img/undertale/tenor (2).gif");
     background-size: cover;
     background-repeat:no-repeat ;
     min-height: 600px;
@@ -763,7 +763,7 @@ html,body{
     font-size: 20px;
 }
 .neutre{
-background-image: url("../img/630.gif");
+background-image: url("../img/undertale/630.gif");
     background-size: cover;
     background-position: center;
     background-repeat:no-repeat ;
@@ -771,7 +771,7 @@ background-image: url("../img/630.gif");
 
 }
 .genocide{
-    background-image: url("../img/tenor (3).gif");
+    background-image: url("../img/undertale/tenor (3).gif");
     background-size: cover;
     background-position: center;
     background-repeat:no-repeat ;
@@ -807,4 +807,27 @@ background-image: url("../img/630.gif");
 #asgore{
     height: 100%;
     width: 100%;
+}
+.mine{
+    background-image: url("../img/minecraft/171177.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: bottom;
+    background-repeat: repeat;
+    background-color: green;
+}
+.cool{
+    color: #007bff;
+    font-size: 30px;
+}
+/* Cellulaires */
+@media only screen and (max-width: 720px){
+html,body{
+    font-size: 9.5px;
+}
+
+}
+/* TABLETTES */
+@media screen and (min-width: 481px) and (max-width: 1199px) {
+    ...
 }

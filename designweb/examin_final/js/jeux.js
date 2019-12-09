@@ -113,7 +113,7 @@ $('#asriel').hover(function () {
 });
 $('#styminecraft').click(function () {
    $('.navbar').attr("id","minecraft");
-   $('#imagebrand').attr("src","img/580b57fcd9996e24bc43c2f1.png");
+   $('#imagebrand').attr("src","img/minecraft/580b57fcd9996e24bc43c2f1.png");
    $('.glouglou').html("style navbar: minecraft");
     $('#titrenav').css("color","#c82333");
     $('.fa-youtube').css("color","#FF0000");
@@ -124,7 +124,7 @@ $('#styminecraft').click(function () {
 });
 $('#styundertale').click(function () {
     $('.navbar').attr("id","undertale");
-    $('#imagebrand').attr("src","img/2316613_0.jpg");
+    $('#imagebrand').attr("src","img/undertale/2316613_0.jpg");
     $('.glouglou').html("style navbar: undertale");
     $('#titrenav').css("color","#c82333");
     $('.fa-youtube').css("color","#FF0000");
