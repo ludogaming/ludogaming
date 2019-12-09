@@ -831,3 +831,19 @@ html,body{
 @media screen and (min-width: 481px) and (max-width: 1199px) {
     ...
 }
+.chose{
+    color: gold;
+    font-size: 55px;
+}
+.creatif{
+    background-color: aqua;
+}
+.fa-building{
+    font-size: 50px;
+}
+.survie{
+    background-color: red;
+}
+.fa-heart{
+    font-size: 50px;
+}
