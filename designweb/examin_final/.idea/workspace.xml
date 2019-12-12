@@ -16,9 +16,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -31,7 +31,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/img/minecraft" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/css" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -42,14 +42,16 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ludov\Documents\Github\ludogaming\designweb\examin_final\css" />
+      <recent name="C:\Users\ludov\Documents\Github\ludogaming\designweb\examin_final\img\zelda" />
       <recent name="C:\Users\ludov\Documents\Github\ludogaming\designweb\examin_final\img\minecraft" />
       <recent name="C:\Users\ludov\Documents\Github\ludogaming\designweb\examin_final\img" />
       <recent name="C:\Users\ludov\Documents\Github\ludogaming\designweb\examin_final\img\undertale" />
-      <recent name="C:\Users\ludov\Documents\Github\ludogaming\designweb\examin_final" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\ludov\Documents\Github\ludogaming\designweb\examin_final\img\undertale" />
+      <recent name="C:\Users\ludov\Documents\Github\ludogaming\designweb\examin_final\img\zelda" />
       <recent name="C:\Users\ludov\Documents\Github\ludogaming\designweb\examin_final\img\minecraft" />
+      <recent name="C:\Users\ludov\Documents\Github\ludogaming\designweb\examin_final\img\undertale" />
       <recent name="C:\Users\ludov\Documents\Github\ludogaming\designweb\examin_final\img" />
     </key>
   </component>
@@ -83,7 +85,11 @@
       <workItem from="1575655230213" duration="169000" />
       <workItem from="1575658910235" duration="7298000" />
       <workItem from="1575846874649" duration="8280000" />
-      <workItem from="1575919208625" duration="8277000" />
+      <workItem from="1575919208625" duration="8333000" />
+      <workItem from="1575981816182" duration="8182000" />
+      <workItem from="1576000189946" duration="599000" />
+      <workItem from="1576094405780" duration="670000" />
+      <workItem from="1576161572548" duration="4489000" />
     </task>
     <servers />
   </component>

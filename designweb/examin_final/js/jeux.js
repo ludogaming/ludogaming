@@ -134,7 +134,7 @@ $('#styundertale').click(function () {
 });
 $('#styzelda').click(function () {
    $('.navbar').attr("id","zelda");
-    $('#imagebrand').attr("src","img/The_Legend_of_Zelda_Ocarina_of_Time_Logo.png");
+    $('#imagebrand').attr("src","img/zelda/The_Legend_of_Zelda_Ocarina_of_Time_Logo.png");
     $('.glouglou').html("style navbar: zelda");
     $('#titrenav').css("color","#c82333");
     $('.fa-youtube').css("color","#FF0000");
@@ -159,4 +159,19 @@ $('#styoutube').click(function () {
     $('#switch').removeClass("btn-outline-dark");
     $('#switch').addClass("btn-light");
 
+});
+$(function () {
+    $('[data-toggle="popover"]').popover();
+});
+$('a[rel=popover]').popover({
+    html: true,
+    trigger: 'click',
+    content: function () {
+        return '<img src="'+$(this).data('img') + '" />';
+    }
+});
+$('.text').html(function(i, html) {
+    var chars = $.trim(html).split("");
+
+    return '<span>' + chars.join('</span><span>') + '</span>';
 });
