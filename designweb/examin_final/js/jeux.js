@@ -114,6 +114,7 @@ $('#asriel').hover(function () {
 $('#styminecraft').click(function () {
    $('.navbar').attr("id","minecraft");
    $('#imagebrand').attr("src","img/minecraft/580b57fcd9996e24bc43c2f1.png");
+    $('#hamburger').attr("src","img/minecraft/aad0a1a13bb7ed298fd201a44829a35b.png");
    $('.glouglou').html("style navbar: minecraft");
     $('#titrenav').css("color","#c82333");
     $('.fa-youtube').css("color","#FF0000");
@@ -124,6 +125,7 @@ $('#styminecraft').click(function () {
 });
 $('#styundertale').click(function () {
     $('.navbar').attr("id","undertale");
+    $('#hamburger').attr("src","img/undertale/flat,800x800,070,f.jpg");
     $('#imagebrand').attr("src","img/undertale/2316613_0.jpg");
     $('.glouglou').html("style navbar: undertale");
     $('#titrenav').css("color","#c82333");
@@ -131,10 +133,12 @@ $('#styundertale').click(function () {
     $('#switch').removeClass("btn-light");
     $('#switch').addClass("btn-outline-dark");
 
+
 });
 $('#styzelda').click(function () {
    $('.navbar').attr("id","zelda");
     $('#imagebrand').attr("src","img/zelda/The_Legend_of_Zelda_Ocarina_of_Time_Logo.png");
+    $('#hamburger').attr("src","img/zelda/1200px-Triforce.svg.png");
     $('.glouglou').html("style navbar: zelda");
     $('#titrenav').css("color","#c82333");
     $('.fa-youtube').css("color","#FF0000");
@@ -144,6 +148,7 @@ $('#styzelda').click(function () {
 $('#stycallofduty').click(function () {
     $('.navbar').attr("id","callofduty");
     $('#imagebrand').attr("src","img/callofduty/Call_of_Duty_Infinite_Warfare_–_Game_logo.svg.png");
+    $('#hamburger').attr("src","img/callofduty/319I8xGWTOL._SX425_.jpg");
     $('.glouglou').html("style navbar: call of duty");
     $('#titrenav').css("color","#c82333");
     $('.fa-youtube').css("color","#FF0000");
@@ -153,6 +158,7 @@ $('#stycallofduty').click(function () {
 $('#styoutube').click(function () {
     $('.navbar').attr("id", "youtube");
     $('#imagebrand').attr("src","img/youtube/502px-Logo_of_YouTube_(2015-2017).svg.png");
+    $('#hamburger').attr("src","img/youtube/1200px-Youtube_Music_logo.svg.png");
     $('.glouglou').html("style navbar: youtube");
     $('.fa-youtube').css("color","#ffffff");
     $('#titrenav').css("color","white");

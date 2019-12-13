@@ -820,22 +820,6 @@ background-image: url("../img/undertale/630.gif");
     color: #007bff;
     font-size: 30px;
 }
-/* Cellulaires */
-@media only screen and (max-width: 720px){
-html,body{
-    font-size: 10px;
-}
-  .container-fluid{
-      width: 100%;
-      padding-right: 0;
-
-  }
-
-}
-/* TABLETTES */
-@media screen and (min-width: 481px) and (max-width: 1199px) {
-
-}
 .chose{
     color: gold;
     font-size: 55px;
@@ -980,4 +964,59 @@ label{
 .textevicto{
     font-size: 40px;
     color: aqua;
+}
+/* Cellulaires */
+@media only screen and (max-width: 720px){
+    html,body{
+        font-size: 10px;
+    }
+    .container-fluid{
+        width: 100%;
+        padding-right: 0;
+        padding-left: 0;
+        height: 100%;
+
+    }
+    .titre{
+        font-size: 50px;
+    }
+    .titresection{
+        font-size: 30px;
+    }
+    .textesection{
+        font-size: 15px;
+    }
+    .textesection2{
+        font-size: 15px;
+    }
+    .pacifist{
+        background-position: center;
+    }
+    #mettatonex,#asgore,#mettaton,#undyne,#theundying,#papyrus,#tori,#asriel{
+        width: 100%;
+    }
+    .fa-youtube{
+        padding-left: 200px;
+    }
+    .chose{
+        font-size: 35px;
+    }
+    .cool{
+        font-size: 17px;
+    }
+    .rainbow{
+        font-size: 50px;
+    }
+    .rainbow2{
+        font-size: 35px;
+    }
+    .reco{
+        font-size: 35px;
+    }
+}
+/* TABLETTES */
+@media screen and (min-width: 481px) and (max-width: 1199px) {
+    #mettatonex,#asgore,#mettaton,#undyne,#theundying,#papyrus,#tori,#asriel{
+        width: 100%;
+    }
 }
