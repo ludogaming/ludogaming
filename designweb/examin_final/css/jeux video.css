@@ -823,8 +823,13 @@ background-image: url("../img/undertale/630.gif");
 /* Cellulaires */
 @media only screen and (max-width: 720px){
 html,body{
-    font-size: 9.5px;
+    font-size: 10px;
 }
+  .container-fluid{
+      width: 100%;
+      padding-right: 0;
+
+  }
 
 }
 /* TABLETTES */
@@ -905,4 +910,74 @@ html,body{
 }
 .lead{
     font-size: 25px;
+}
+.un{
+    font-size: 30px;
+    color: white;
+}
+.bte{
+    font-size: 25px;
+}
+#animation{
+    display: none;
+}
+
+#cod{
+    background-color: black;
+    color: white;
+}
+.reco{
+    font-size: 70px;
+    text-decoration: underline;
+}
+.qwerty{
+    font-size: 80px;
+}
+#logoyoutube{
+    color: white;
+}
+#you{
+    background-image: url("../img/youtube/795970.jpg");
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
+    background-repeat: repeat;
+}
+.youyou{
+    color:white ;
+}
+.titreyou{
+    font-size: 75px;
+}
+.rainbow2 {
+    background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+    color:transparent;
+    -webkit-background-clip: text;
+
+    font-size: 70px;
+}
+.tab{
+    font-size: 35px;
+    color: lime;
+}
+.card-header{
+    font-size: 40px;
+}
+.row{
+    padding-right: 0;
+    padding-left: 0 ;
+    margin-right: 0;
+    margin-left: 0;
+}
+.formhead{
+    color: white;
+    font-size: 35px;
+}
+label{
+    font-size: 37px;
+    color: aqua;
+}
+.textevicto{
+    font-size: 40px;
+    color: aqua;
 }
