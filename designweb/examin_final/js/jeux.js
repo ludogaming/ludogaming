@@ -143,7 +143,7 @@ $('#styzelda').click(function () {
 });
 $('#stycallofduty').click(function () {
     $('.navbar').attr("id","callofduty");
-    $('#imagebrand').attr("src","img/Call_of_Duty_Infinite_Warfare_–_Game_logo.svg.png");
+    $('#imagebrand').attr("src","img/callofduty/Call_of_Duty_Infinite_Warfare_–_Game_logo.svg.png");
     $('.glouglou').html("style navbar: call of duty");
     $('#titrenav').css("color","#c82333");
     $('.fa-youtube').css("color","#FF0000");
@@ -152,7 +152,7 @@ $('#stycallofduty').click(function () {
 });
 $('#styoutube').click(function () {
     $('.navbar').attr("id", "youtube");
-    $('#imagebrand').attr("src","img/502px-Logo_of_YouTube_(2015-2017).svg.png");
+    $('#imagebrand').attr("src","img/youtube/502px-Logo_of_YouTube_(2015-2017).svg.png");
     $('.glouglou').html("style navbar: youtube");
     $('.fa-youtube').css("color","#ffffff");
     $('#titrenav').css("color","white");
@@ -174,4 +174,7 @@ $('.text').html(function(i, html) {
     var chars = $.trim(html).split("");
 
     return '<span>' + chars.join('</span><span>') + '</span>';
+});
+$('#buttona').click(function () {
+    $('#animation').show();
 });
